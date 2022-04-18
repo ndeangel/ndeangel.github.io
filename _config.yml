@@ -5,7 +5,7 @@ description: Nicolas De Angelis' webpage
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Nicolas De Angelis
+username: Nicolas <br> De Angelis
 user_description: PhD student in astroparticle physics
 user_title: PhD student in astroparticle physics
 email: nicolas.deangelis@unige.ch
