@@ -18,3 +18,9 @@ google-analytics:
   id: ""
 
 exclude: ['package.json', 'src' , 'node_modules']
+
+
+# show_timeline_card:
+show_timeline_card: true
+# timeline_title: The will be displayed as the title in the Timeline section
+timeline_title: Education & Experience
