@@ -25,3 +25,6 @@ exclude: ['package.json', 'src' , 'node_modules']
 show_timeline_card: true
 # timeline_title: The will be displayed as the title in the Timeline section
 timeline_title: Education & Experience
+# cv_download_link: The link where you host your cv.
+cv_download_link: docs/CV.pdf
+
