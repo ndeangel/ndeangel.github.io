@@ -45,6 +45,9 @@
   }
 }
 
+@media screen and (min-width: 600px)  {
+    .mobile-break { display: none; }
+}
 
 .header-links {
   margin: 10px;
