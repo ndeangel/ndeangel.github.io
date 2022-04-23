@@ -17,9 +17,9 @@
     display: none;
 }
 
-@media screen and (min-width:$cut) {
+@media screen and (max-width:$cut) {
     .br-on-mobile {
-        display: static;
+        display: inherit;
     }
 }
 
