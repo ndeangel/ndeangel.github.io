@@ -1,4 +1,8 @@
 <style>
+  .accordion{
+    display: flex;
+  }
+
   .accordion__button {
     display: block;
     width: 100%;
@@ -6,8 +10,8 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background: #333333;
-    color: #666666;
+    background: #555555;
+    color: #ffffff;
     text-align: left;
     transition: background 0.2s;
   }
@@ -17,7 +21,7 @@
     float: right;
   }
 
-  .accordion__button--active { background: #555555; }
+  .accordion__button--active { background: #444444; }
   .accordion__button--active::after { content: '\25b4'; }
 
   .accordion__content {
@@ -27,7 +31,7 @@
 
     padding: 0 15px;
     font-family: sans-serif;
-    background: #eeeeee;
+    background-color: #eeeeee;
   }
 </style>
 
@@ -44,17 +48,17 @@
 </div>
 
 <script>
-  document.querySelectorAll('.accordion__button').forEach(button => {
-    button.addEventListener('click', () => {
-      const accordionContent = button.nextElementSibling;
-
-      button.classList.toggle('accordion__button--active');
-
-      if (button.classList.contains('accordion__button--active')) {
-        accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-      } else {
-        accordionContent.style.maxHeight = 0;
-      }
+    var coll = document.getElementsByClassName("accordion__button");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+        } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        }
     });
-  });
+    }
 </script>
