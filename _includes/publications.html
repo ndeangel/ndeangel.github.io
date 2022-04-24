@@ -26,40 +26,42 @@
   }
 </style>
 
-<div class="cbCollapseRow">
-<h2>Sample 1</h2>
-</div>
-<button class="cbCollapse">test</button>
-<div class="content">
-<p>Lorem ipsum dolor sit amet</p>
-</div>
+<div class="user-details">
 
-<button class="cbCollapse"></button>
-<div class="content">
-<p>Lorem ipsum dolor sit amet</p>
-</div>
+  <button class="cbCollapse">2022</button>
+  <div class="content">
+  <p>Lorem ipsum dolor sit amet</p>
+  </div>
 
+  <button class="cbCollapse">2021</button>
+  <div class="content">
+  <p>Lorem ipsum dolor sit amet</p>
+  </div>
 
-<div class="cbCollapseRow">
-<h2>Sample 3</h2>
-</div>
-<button class="cbCollapse"></button>
-<div class="content">
-<p>Lorem ipsum dolor sit amet</p>
+  <button class="cbCollapse">2020</button>
+  <div class="content">
+  <p>Lorem ipsum dolor sit amet</p>
+  </div>
+
+  <button class="cbCollapse">2019</button>
+  <div class="content">
+  <p>Lorem ipsum dolor sit amet</p>
+  </div>
+
 </div>
 
 <script>
-  var coll = document.getElementsByClassName("cbCollapse");
-  var i;
-  for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight) {
-      content.style.maxHeight = null;
-      } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-      }
-  });
-  }
+    var coll = document.getElementsByClassName("cbCollapse");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+        } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+    }
 </script>
