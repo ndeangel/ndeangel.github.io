@@ -3,10 +3,27 @@
 </div>
 
 <div class="accordion">
-  <button type="button" class="accordion__button">2021</button>
+  <button type="button" class="accordion__button accordion__button--active">2021</button>
   <div class="accordion__content"></div>
     <p>
       Publication in Journal by Author at Date
     </p>
   </div>
 </div>
+
+
+<script>
+  document.querySelectorAll('.accordion__button').forEach(button => {
+    button.addEventListener('click', () => {
+      const accordionContent = button.nextElementSibling;
+
+      button.classList.toggle('accordion__button--active');
+
+      if (button.classList.contains('accordion__button--active')) {
+        accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+      } else {
+        accordionContent.style.maxHeight = 0;
+      }
+    });
+  });
+</script>
