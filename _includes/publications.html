@@ -21,11 +21,19 @@
     transition: background 0.2s;
   }
 
+  .cbCollapse::after {
+    content: '\25be';
+    float: right;
+  }
+
+  .cbCollapse--active { background: #444444; }
+  .cbCollapse--active::after { content: '\25b4'; }
+
   .content {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 90%;
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
