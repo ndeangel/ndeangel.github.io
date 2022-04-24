@@ -1,28 +1,61 @@
-<div class="openberkeley-collapsible-container">
-<h2 class="openberkeley-collapsible-controller">Line of collapsible text</h2>
-<div class="openberkeley-collapsible-target">
-<p>In hac habitasse platea dictumst. Suspendisse dictum, velit vel vehicula gravida,
-turpis nulla dignissim nibh, a tristique enim dui vestibulum enim. Duis cursus
-euismod diam vitae gravida. Etiam a purus lorem.</p>
+<style>
+    .cbCollapseRow {
+    display: flex;
+    }
+
+    .cbCollapse {
+    background-image: url('https://www.pitsco.com/skins/mobile/PlusIcon.svg');
+    background-size: cover;
+    cursor: pointer;
+    padding: 30px;
+    border: none;
+    margin-bottom: 15px;
+    }
+
+    .content {
+    width: 100%;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    }
+</style>
+
+<div class="cbCollapseRow">
+  <h2>Sample 1</h2>
 </div>
+<button class="cbCollapse"></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet</p>
 </div>
-<div class="openberkeley-collapsible-container">
-<h2 class="openberkeley-collapsible-controller">Another line of collapsible text</h2>
-<div class="openberkeley-collapsible-target">
-<p>Here is another paragraph that will expand. It can be long or short. You can add
-any formatting and layout you want to a collapsible item. For example:</p>
-<h3>Here is a subheading</h3>
-<p>More text.</p>
-<table>
-<tbody>
-<tr><th>Table header</th><th>Table header 2</th></tr>
-<tr>
-<td>Content of table</td>
-<td>More content of table</td>
-</tr>
-</tbody>
-</table>
+
+<button class="cbCollapse"></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet</p>
 </div>
+
+
+<div class="cbCollapseRow">
+  <h2>Sample 3</h2>
 </div>
-<h2>No longer expanding!</h2>
-<p>This stuff is just regular.</p>
+<button class="cbCollapse"></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet</p>
+</div>
+
+<script>
+    var coll = document.getElementsByClassName("cbCollapse");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+        } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+    }
+</script>
