@@ -27,7 +27,11 @@
   }
 
   .cbCollapse--active { background: #666666; }
-  .cbCollapse--active::after { content: '\25b4'; }
+  .cbCollapse--active::after {
+    content: '\25b4';
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
 
   .content {
     max-width: 960px;
