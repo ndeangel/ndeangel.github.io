@@ -30,9 +30,10 @@
 }
 
 .contents {
+  margin-top: -15%;
   @media only screen and (min-width: $cut) {
     margin-left: 0;
-    margin-top: -15%;
+    margin-top: -5%;
     width: 48%;
   }
 }
