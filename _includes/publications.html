@@ -11,10 +11,11 @@
     max-width: 960px;
     width: 100%;
     padding: 15px;
-    border: #ffffff;
+    border: #cccccc;
+    border-radius: 5px;
     outline: none;
     cursor: pointer;
-    background: #333333;
+    background: #555555;
     color: #ffffff;
     text-align: left;
     transition: background 0.2s;
@@ -25,7 +26,7 @@
     float: right;
   }
 
-  .cbCollapse--active { background: #444444; }
+  .cbCollapse--active { background: #666666; }
   .cbCollapse--active::after { content: '\25b4'; }
 
   .content {
@@ -35,6 +36,7 @@
     width: 90%;
     padding: 0 0;
     max-height: 0;
+    text-align: left;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
@@ -52,7 +54,15 @@
 
   <button class="cbCollapse">2021</button>
   <div class="content">
-  <p>Lorem ipsum dolor sit amet</p>
+  <p>
+    <strong>
+      <a href="http://dx.doi.org/10.22323/1.395.0580" target="_blank">Development and science perspectives of the POLAR-2 instrument: a large scale GRB polarimeter</a></strong>
+    <br/>Nicolas D<small>E ANGELIS</small>            <br/>
+                <span>Proceedings of Science - 37th International Cosmic Ray Conference (ICRC2021)</span>
+          <span><b>395</b></span>
+                        <span>(580)</span>
+                                <span><i>(2021)</i></span>
+                  <span>[<a href="http://arxiv.org/abs/arXiv:2109.02978" target="_blank">arXiv</a>]</span></p>
   </div>
 
   <button class="cbCollapse">2020</button>
