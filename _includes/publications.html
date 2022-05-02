@@ -107,7 +107,7 @@
       </strong>
       <br/>Johannes H<small>ULSMAN</small> et al.<br/>
       <span>SPIE Proceedings</span>
-      <span><b>Volume 11444</b></span> <span>Space Telescopes and Instrumentation 2020: Ultraviolet to Gamma Ray</span> <span><i>(2020)</i></span>
+      <span><b>V. 11444</b></span> <span>Space Telescopes and Instrumentation 2020: Ultraviolet to Gamma Ray</span> <span><i>(2020)</i></span>
       <span>[<a href="https://arxiv.org/abs/2101.03084" target="_blank">arXiv</a>]</span>
     </p>
     <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
@@ -179,12 +179,16 @@
 
   <button class="cbCollapse">2021</button>
   <div class="content">
-    <p style="margin-left: 20px;">astropol/icrc</p>
+    <p style="margin-left: 20px;">astropol/icrc/integral</p>
   </div>
 
   <button class="cbCollapse">2020</button>
   <div class="content">
-  <p style="margin-left: 20px;">Lorem ipsum dolor sit amet</p>
+  <p style="margin-left: 20px;">
+    <span><b>Title of the talk</b></span><br/>
+    <span>[<a href="" target="_blank">Conference name</a></span> <span><b>conference location</b></span> <span><i>conference dates</i></span>
+    <span>[<a href="{{site.docs_download_link}}CTA_Lugano_2019.pdf" target="_blank">Slides</a>]</span>
+  </p>
   </div>
 
   <button class="cbCollapse">2019</button>
@@ -196,7 +200,6 @@
 
 
 <script>
-    window.toggleAll = 0;
     var coll = document.getElementsByClassName("cbCollapse");
     var i;
     for (i = 0; i < coll.length; i++) {
@@ -209,21 +212,5 @@
         content.style.maxHeight = content.scrollHeight + "px";
         }
     });
-    }
-    function toggleAll() {
-
-    var buttons = Array.prototype.slice.call(document.querySelectorAll('.cbCollapse'));
-
-        buttons.forEach(function (button) {
-            // Swap each element between display 'none' and 'block'
-            if (window.toggleAll === 0) {
-                button.style.display = 'block';
-            } else {
-                button.style.display = 'none';
-            }
-
-            // Swap window.toggleAll between 0 and 1
-            window.toggleAll = window.toggleAll === 0 ? 1 : 0;
-        });
     }
 </script>
