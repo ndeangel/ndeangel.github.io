@@ -68,7 +68,6 @@
 
   <button class="cbCollapse">2021</button>
   <div class="content">
-    <p style="margin-left: 20px;">Lorem ipsum dolor sit amet</p>
     <p style="margin-left: 20px;">
       <strong>
         <a href="http://dx.doi.org/10.22323/1.395.0580" target="_blank">Development and science perspectives of the POLAR-2 instrument: a large scale GRB polarimeter</a>
@@ -197,6 +196,7 @@
 
 
 <script>
+    window.toggleAll = 0;
     var coll = document.getElementsByClassName("cbCollapse");
     var i;
     for (i = 0; i < coll.length; i++) {
@@ -209,5 +209,21 @@
         content.style.maxHeight = content.scrollHeight + "px";
         }
     });
+    }
+    function toggleAll() {
+
+    var buttons = Array.prototype.slice.call(document.querySelectorAll('.clsPromptButton'));
+
+        buttons.forEach(function (button) {
+            // Swap each element between display 'none' and 'block'
+            if (window.toggleAll === 0) {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+
+            // Swap window.toggleAll between 0 and 1
+            window.toggleAll = window.toggleAll === 0 ? 1 : 0;
+        });
     }
 </script>
