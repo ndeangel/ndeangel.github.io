@@ -8,8 +8,8 @@
 
 <div class="user-details">
   <ul class="timeline">
-    {%- assign align = site.data.sitetext[site.locale].timeline.start_align -%}
-    {%- for event in site.data.sitetext[site.locale].timeline.events -%}
+    {%- assign align = site.timeline.start_align -%}
+    {%- for event in site.timeline.events -%}
           {%- if align == "right" -%}
             {%- if event.align and event.align == "left" -%}
               {%- assign align = "right" -%}
@@ -42,10 +42,10 @@
           </li>
     {% endfor %}	
           
-    {% if site.data.sitetext[site.locale].timeline.end %}	
+    {% if site.timeline.end %}	
     <li class="timeline-inverted">
             <div class="timeline-image">
-              <h4>{{ site.data.sitetext[site.locale].timeline.end }}</h4>
+              <h4>{{ site.timeline.end }}</h4>
             </div>
           </li>
     {% endif %}
