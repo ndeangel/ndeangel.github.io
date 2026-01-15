@@ -8,7 +8,7 @@ description: Nicolas De Angelis' webpage
 username_title: Nicolas <br> De Angelis
 username: Nicolas De Angelis
 user_description: I am currently pursuing a PhD in the group of space astroparticle physics at the Department of High Energy Physics (<b>DPNC</b>) of the <b>University of Geneva</b>, Switzerland. My research interests lie at the exciting intersection of high-energy astrophysics and space-based instrumentation. One key aspect of my work involves the development of the next-generation Compton polarimeter, POLAR-2. I have been extensively involved in various facets of this project, including the characterization of Silicon Photomultiplier (SiPM) detectors, optical characterization and simulation using Geant4, and the implementation of data acquisition systems using ASIC/FPGA-based electronics. Additionally, I contribute to the rigorous space qualification campaigns of POLAR-2, ensuring its reliability and robustness through irradiation, vibration and shock testing, as well as thermal vacuum cycling. I am also actively involved in the mechanical assembly and design of the polarimeter as well as in gamma-ray datector calibration. I am also actively engaged in the data analysis of the POLAR mission, predecessor of POLAR-2. Additionally, I am involved in the development of other future space-based experiments, including eXTP (enhanced X-ray Timing and Polarimetry Mission) and LEAP (LargE Area Burst Polarimeter).
-user_title: PhD student in astroparticle physics
+user_title: Postdoctoral researcher in high-energy astrophysics
 email: nicolas.deangelis@unige.ch
 #twitter_username: lorem_ipsum
 github_username:  ndeangel
