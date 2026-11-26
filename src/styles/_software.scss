@@ -1,34 +1,41 @@
-#software {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 960px;
+@use 'vars' as *;
+
+// "Code" and "Software" columns with a grid of logos (4 per row).
+.tech-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem 2rem;
+
   @media only screen and (min-width: $cut) {
-    width: 80%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 .tech {
   margin: 10px;
-  max-width: 480px;
+  text-align: center;
 }
 
-.user {
-  text-align: center;
-  font-size: 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  p {
-    font-size: 16px;
-  }
-  @media only screen and (min-width: $cut) {
-    flex-wrap: nowrap;
-    font-size: 75px;
-  }
-}
+.logos {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 75px));
+  justify-content: center;
+  gap: 2rem 1.25rem;
+  max-width: 400px;
+  margin: 1.5rem auto 0;
+  padding: 0;
+  list-style: none;
 
-.user-details {
-  text-align: center;
-  margin: 5px auto;
+  li {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    // logos are not all square: never stretch them
+    object-fit: contain;
+  }
 }

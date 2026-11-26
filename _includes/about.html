@@ -1,11 +1,9 @@
 <div class="user-details">
-  <h1> About Me </h1>
+  <h2 class="section-title">About Me</h2>
 
   <div class="images-center">
-    <img alt="Nicolas De Angelis" src="{{ "/assets/img/profile.png" | prepend: site.baseurl }}" width="350" height="350"/>
+    <img alt="Portrait of Nicolas De Angelis" src="{{ '/assets/img/profile.webp' | relative_url }}" width="350" height="350" loading="lazy" decoding="async">
   </div>
 
-  <p> {{site.user_description}} </p>
+  <p>{{ site.user_description }}</p>
 </div>
-
-

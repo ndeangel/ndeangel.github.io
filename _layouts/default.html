@@ -2,7 +2,9 @@
 <html lang="en">
   {% include head.html %}
   <body>
-      {% include header.html %}
+    <a class="skip-link" href="#main">Skip to main content</a>
+    {% include header.html %}
+    <main id="main">
       <section id="about">
         {% include about.html %}
       </section>
@@ -21,6 +23,9 @@
       <section id="teaching">
         {% include teaching.html %}
       </section>
-        {{ content }}
-      {% include footer.html %}
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
   </body>
+</html>
