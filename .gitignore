@@ -1,5 +1,13 @@
+# Jekyll
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.bundle
 vendor
+
+# Node (only used to compile src/ into assets/, see README.md)
+node_modules
+
+# macOS
+.DS_Store

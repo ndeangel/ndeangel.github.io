@@ -1,9 +1,17 @@
-/* sweetScroll load */
+/* Hero animation (particles.js is loaded from assets/js/particles.min.js).
+   Source for assets/js/main.js - rebuild with `npm run build:js`. */
 document.addEventListener("DOMContentLoaded", function () {
-  new SweetScroll({/* some options */});
+  var hero = document.getElementById("particles-js");
+  if (!hero || typeof particlesJS !== "function") {
+    return;
+  }
 
-  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS('particles-js', {
+  // Respect the "reduce motion" setting of the visitor: draw the particles once, don't animate.
+  var reduceMotion =
+    window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* particlesJS(@dom-id, @params) */
+  particlesJS("particles-js", {
     "particles": {
       "number": {
         "value": 30,
@@ -23,11 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         "polygon": {
           "nb_sides": 5
-        },
-        "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
         }
       },
       "opacity": {
@@ -58,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "width": 1
       },
       "move": {
-        "enable": true,
+        "enable": !reduceMotion,
         "speed": 4,
         "direction": "none",
         "random": true,
@@ -81,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "mode": "grab"
         },
         "onclick": {
-          "enable": true,
+          "enable": !reduceMotion,
           "mode": "push"
         },
         "resize": true
@@ -115,4 +118,15 @@ document.addEventListener("DOMContentLoaded", function () {
     "retina_detect": true
   });
 
+  // particles.js redraws 60 times per second forever, even when the hero is scrolled out of view.
+  // Pause it while the hero is not visible (saves CPU / battery while reading the rest of the page).
+  var pJS = window.pJSDom && window.pJSDom[0] && window.pJSDom[0].pJS;
+  if (pJS && !reduceMotion && "IntersectionObserver" in window) {
+    new IntersectionObserver(function (entries) {
+      window.cancelAnimationFrame(pJS.fn.drawAnimFrame);
+      if (entries[entries.length - 1].isIntersecting) {
+        pJS.fn.vendors.draw();
+      }
+    }).observe(hero);
+  }
 }, false);

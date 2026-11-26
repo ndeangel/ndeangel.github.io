@@ -1,960 +1,841 @@
-<style>
-  .cbCollapseRow {
-    display: flex;
-  }
-
-  .cbCollapse {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: 960px;
-    width: 100%;
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
-    background: #555555;
-    color: #ffffff;
-    text-align: left;
-    transition: background 0.2s;
-  }
-
-  .cbCollapse::after {
-    content: '\25be';
-    float: right;
-  }
-
-  .cbCollapse--active { 
-    background: #666666;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  .cbCollapse--active::after { content: '\25b4'; }
-
-  .content {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    padding: 0 0;
-    max-height: 0;
-    text-align: left;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-  }
-</style>
- 
 <div class="user-details">
-  <h1> Publication list </h1>
-  <button class="cbCollapse">2026</button>
-  <div class="content">
-      <p style="margin-left: 20px;">
+  <h2 class="section-title">Publication list</h2>
+  <details class="accordion">
+    <summary>2026</summary>
+    <div class="accordion-content">
+      <p class="entry">
         <strong>
-          <a href="" target="_blank">Proton irradiation of POLAR-2 Front/Back-End Electronics and Power Supplies</a>
+          Proton irradiation of POLAR-2 Front/Back-End Electronics and Power Supplies
         </strong>
+        {% comment %}TODO: add the DOI link when available{% endcomment %}
         <br/>Johannes H<small>ULSMAN</small> et al.<br/>
         <span>Journal</span>
         <span><b>In preparation</b></span> <span><i>(2026)</i></span>
-        <span>[<a href="" target="_blank">arXiv</a>]</span>
+        {% comment %}TODO: add the arXiv link when available{% endcomment %}
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="" target="_blank">GRB energy dependent polarization analysis with the POLAR and POLAR-2 instruments</a>
+          GRB energy dependent polarization analysis with the POLAR and POLAR-2 instruments
         </strong>
+        {% comment %}TODO: add the DOI link when available{% endcomment %}
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
         <span>Journal</span>
         <span><b>In preparation</b></span> <span><i>(2026)</i></span>
-        <span>[<a href="" target="_blank">arXiv</a>]</span>
+        {% comment %}TODO: add the arXiv link when available{% endcomment %}
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/" target="_blank">Scientific Prospects of the POLAR-2 Mission</a>
+          Scientific Prospects of the POLAR-2 Mission
         </strong>
+        {% comment %}TODO: add the DOI link when available{% endcomment %}
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small><br/>
         <span>Frontier Research in Astrophysics - V (FRAPWS2026), PoS</span>
-        <span><b>Vol</b></span> <span>pp</span> <span><i>(2026)</i></span>
-        <span>[<a href="http://arxiv.org/abs/" target="_blank">arXiv</a>]</span>
+        {% comment %}TODO: add the PoS volume and page number{% endcomment %}
+        <span><i>(2026)</i></span>
+        {% comment %}TODO: add the arXiv link when available{% endcomment %}
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/" target="_blank">On the potential of widening the energy band of X-ray polarimetry</a>
+          On the potential of widening the energy band of X-ray polarimetry
         </strong>
+        {% comment %}TODO: add the DOI link when available{% endcomment %}
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small><br/>
         <span>Multifrequency Behaviour of High Energy Cosmic Sources - XV (MULTIF2025), PoS</span>
-        <span><b>In preparation</b></span> <span></span> <span><i>(2026)</i></span>
-        <span>[<a href="http://arxiv.org/abs/" target="_blank">arXiv</a>]</span>
+        <span><b>In preparation</b></span> <span><i>(2026)</i></span>
+        {% comment %}TODO: add the arXiv link when available{% endcomment %}
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/" target="_blank">PolPy: A universal tool for X-ray/gamma-ray polarimetry using common data format standards</a>
+          PolPy: A universal tool for X-ray/gamma-ray polarimetry using common data format standards
         </strong>
+        {% comment %}TODO: add the DOI link when available{% endcomment %}
         <br/>Sujay M<small>ATE</small> et al.<br/>
         <span>Submitted to ApJ</span>
-        <span><b></b></span> <span></span> <span><i>(2026)</i></span>
-        <span>[<a href="https://arxiv.org/abs/2608.27775" target="_blank">arXiv</a>]</span>
+        <span><i>(2026)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2608.27775" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3104575" target="_blank">Compton polarimeter prototype for the CubeSat Solar Polarimeter (CUSP) mission</a>
+          <a href="https://doi.org/10.1117/12.3104575" target="_blank" rel="noopener">Compton polarimeter prototype for the CubeSat Solar Polarimeter (CUSP) mission</a>
         </strong>
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
         <span>SPIE Space Telescopes and Instrumentation 2026: X-Ray, Optical, and Infrared Detectors for Astronomy XII</span>
         <span><b>14157</b></span> <span>141570V</span> <span><i>(2026)</i></span>
-        <span>[<a href="https://arxiv.org/abs/2607.27460" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2607.27460" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3102758" target="_blank">Characterization of solar background signatures in IXPE gas pixel detectors through laboratory measurements</a>
+          <a href="https://doi.org/10.1117/12.3102758" target="_blank" rel="noopener">Characterization of solar background signatures in IXPE gas pixel detectors through laboratory measurements</a>
         </strong>
         <br/>Simone P<small>AGLIARELLA</small> et al.<br/>
         <span>SPIE Space Telescopes and Instrumentation 2026: Ultraviolet to Gamma Ray</span>
         <span><b>14146</b></span> <span>141465Z</span> <span><i>(2026)</i></span>
-        <span>[<a href="http://arxiv.org/abs/" target="_blank">arXiv</a>]</span>
+        {% comment %}TODO: add the arXiv link when available{% endcomment %}
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3105324" target="_blank">EXPO: a quantum leap in fast, wide-band X-ray polarimetry for astrophysics</a>
+          <a href="https://doi.org/10.1117/12.3105324" target="_blank" rel="noopener">EXPO: a quantum leap in fast, wide-band X-ray polarimetry for astrophysics</a>
         </strong>
         <br/>Paolo S<small>OFFITTA</small> et al.<br/>
         <span>SPIE Space Telescopes and Instrumentation 2026: Ultraviolet to Gamma Ray</span>
         <span><b>14146</b></span> <span>141461B</span> <span><i>(2026)</i></span>
-        <span>[<a href="https://arxiv.org/abs/2608.20898" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2608.20898" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3103489" target="_blank">In-orbit background for hard x-ray CubeSat polarimeters: case study of the CUSP mission in low-earth orbit</a>
+          <a href="https://doi.org/10.1117/12.3103489" target="_blank" rel="noopener">In-orbit background for hard x-ray CubeSat polarimeters: case study of the CUSP mission in low-earth orbit</a>
         </strong>
         <br/>Abhay K<small>UMAR</small> et al.<br/>
         <span>SPIE Space Telescopes and Instrumentation 2026: Ultraviolet to Gamma Ray</span>
         <span><b>14146</b></span> <span>1414654</span> <span><i>(2026)</i></span>
-        <span>[<a href="https://arxiv.org/abs/2608.01524" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2608.01524" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3104756" target="_blank">The CUSP CubeSat mission for space weather multiphysics analysis, design, and testing</a>
+          <a href="https://doi.org/10.1117/12.3104756" target="_blank" rel="noopener">The CUSP CubeSat mission for space weather multiphysics analysis, design, and testing</a>
         </strong>
         <br/>Giovanni L<small>OMBARDI</small> et al.<br/>
         <span>SPIE Space Telescopes and Instrumentation 2026: Ultraviolet to Gamma Ray</span>
         <span><b>14146</b></span> <span>1414655</span> <span><i>(2026)</i></span>
-        <span>[<a href="https://arxiv.org/abs/2607.29264" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2607.29264" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3102994" target="_blank">The CubeSat solar polarimeter (CUSP): mission overview III</a>
+          <a href="https://doi.org/10.1117/12.3102994" target="_blank" rel="noopener">The CubeSat solar polarimeter (CUSP): mission overview III</a>
         </strong>
         <br/>Sergio F<small>ABIANI</small> et al.<br/>
         <span>SPIE Space Telescopes and Instrumentation 2026: Ultraviolet to Gamma Ray</span>
         <span><b>14146</b></span> <span>141461G</span> <span><i>(2026)</i></span>
-        <span>[<a href="http://arxiv.org/abs/" target="_blank">arXiv</a>]</span>
+        {% comment %}TODO: add the arXiv link when available{% endcomment %}
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.3847/1538-4357/ae7341" target="_blank">The first X-ray polarimetry of an eclipsing low-mass X-ray binary: serendipitous IXPE observation of AX J1745.6–2901</a>
+          <a href="https://doi.org/10.3847/1538-4357/ae7341" target="_blank" rel="noopener">The first X-ray polarimetry of an eclipsing low-mass X-ray binary: serendipitous IXPE observation of AX J1745.6–2901</a>
         </strong>
         <br/>Romana M<small>IKUSINCOVA</small> et al.<br/>
         <span>The Astrophysical Journal</span>
         <span><b>1005</b></span> <span>122</span> <span><i>(2026)</i></span>
-        <span>[<a href="https://arxiv.org/abs/2512.13182" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2512.13182" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1016/j.nima.2026.171392" target="_blank">Performance testing study of the POLAR-2 Broad-band Spectrometer Detector prototype</a>
+          <a href="https://doi.org/10.1016/j.nima.2026.171392" target="_blank" rel="noopener">Performance testing study of the POLAR-2 Broad-band Spectrometer Detector prototype</a>
         </strong>
         <br/>Jinxiu H<small>U</small> et al.<br/>
         <span>Nuclear Instruments and Methods in Physics Research Section A</span>
         <span><b>1087</b></span> <span>171392</span> <span><i>(2026)</i></span>
-        <span>[<a href="http://arxiv.org/abs/" target="_blank">arXiv</a>]</span>
+        {% comment %}TODO: add the arXiv link when available{% endcomment %}
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1007/s10686-026-10043-1" target="_blank">Design and preliminary performance study of the broad-band spectrometer detector for POLAR-2</a>
+          <a href="https://doi.org/10.1007/s10686-026-10043-1" target="_blank" rel="noopener">Design and preliminary performance study of the broad-band spectrometer detector for POLAR-2</a>
         </strong>
         <br/>Jianchao S<small>UN</small> et al.<br/>
         <span>Experimental Astronomy</span>
         <span><b>61</b></span> <span>9</span> <span><i>(2026)</i></span>
-        <span>[<a href="https://arxiv.org/abs/2604.19497" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2604.19497" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="http://dx.doi.org/10.3390/particles9010004" target="_blank">Spectral Performance of Single-Channel Plastic and GAGG Scintillator Bars of the CUbesat Solar Polarimeter (CUSP)</a>
+          <a href="https://doi.org/10.3390/particles9010004" target="_blank" rel="noopener">Spectral Performance of Single-Channel Plastic and GAGG Scintillator Bars of the CUbesat Solar Polarimeter (CUSP)</a>
         </strong>
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
         <span>Particles</span>
         <span><b>9(1)</b></span> <span>4</span> <span><i>(2026)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2601.00485" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2601.00485" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://www.sciltp.com/journals/SpaceTech/articles/2511002143" target="_blank">Design and Scientific Prospects of the POLAR-2 Mission</a>
+          <a href="https://www.sciltp.com/journals/SpaceTech/articles/2511002143" target="_blank" rel="noopener">Design and Scientific Prospects of the POLAR-2 Mission</a>
         </strong>
         <br/>Merlin K<small>OLE</small> et al.<br/>
         <span>Innovations in Space Research Technology</span>
         <span><b>1 (1)</b></span> <span>2</span> <span><i>(2026)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2510.02016" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2510.02016" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-  </div>
+    </div>
+  </details>
   
-  <button class="cbCollapse">2025</button>
-  <div class="content">
-      <p style="margin-left: 20px;">
+  <details class="accordion">
+    <summary>2025</summary>
+    <div class="accordion-content">
+      <p class="entry">
         <strong>
-          <a href="http://dx.doi.org/https://doi.org/10.1016/j.nima.2025.171206" target="_blank">Measurements of the Birks’ coefficient of GAGG: Ce using hard X-rays</a>
+          <a href="https://doi.org/10.1016/j.nima.2025.171206" target="_blank" rel="noopener">Measurements of the Birks’ coefficient of GAGG: Ce using hard X-rays</a>
         </strong>
         <br/>Merlin K<small>OLE</small> et al.<br/>
         <span>Nuclear Instruments and Methods in Physics Research Section A</span>
         <span><b>1048</b></span> <span>171206</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2510.02920" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2510.02920" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.22323/1.482.0065" target="_blank">Addressing Selected Gamma-Ray Burst Science Topics with Future Space Instruments</a>
+          <a href="https://doi.org/10.22323/1.482.0065" target="_blank" rel="noopener">Addressing Selected Gamma-Ray Burst Science Topics with Future Space Instruments</a>
         </strong>
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small><br/>
         <span>PoS</span>
         <span><b>FRAPWS2024</b></span> <span>065</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2510.00707" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2510.00707" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1016/j.nima.2025.170782" target="_blank">Design and performance of a universal SiPM readout system for X- and gamma-ray missions</a>
+          <a href="https://doi.org/10.1016/j.nima.2025.170782" target="_blank" rel="noopener">Design and performance of a universal SiPM readout system for X- and gamma-ray missions</a>
         </strong>
         <br/>Merlin K<small>OLE</small> et al.<br/>
         <span>Nuclear Instruments and Methods in Physics Research Section A</span>
         <span><b>1080</b></span> <span>170782</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2501.07758" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2501.07758" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1016/j.measen.2024.101423" target="_blank">Development and calibration of a measurement system for the characterization of avalanche photodiodes prospectively used as sensors in X-ray Compton polarimeters for space</a>
+          <a href="https://doi.org/10.1016/j.measen.2024.101423" target="_blank" rel="noopener">Development and calibration of a measurement system for the characterization of avalanche photodiodes prospectively used as sensors in X-ray Compton polarimeters for space</a>
         </strong>
         <br/>Andrea A<small>LIMENTI</small> et al.<br/>
         <span>Measurement: Sensors</span>
         <span><b>38</b></span> <span>101423</span> <span><i>(2025)</i></span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1088/1748-0221/20/02/P02010" target="_blank">Optimizing the light output of a plastic scintillator and SiPM based detector through optical characterization and simulation: a case study for POLAR-2</a>
+          <a href="https://doi.org/10.1088/1748-0221/20/02/P02010" target="_blank" rel="noopener">Optimizing the light output of a plastic scintillator and SiPM based detector through optical characterization and simulation: a case study for POLAR-2</a>
         </strong>
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
         <span>Journal of Instrumentation</span>
         <span><b>20(02)</b></span> <span>P02010</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2407.10741" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2407.10741" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.22323/1.501.0687" target="_blank">POLAR-2 – Latest Developments of the Next Generation GRB Polarimeter</a>
+          <a href="https://doi.org/10.22323/1.501.0687" target="_blank" rel="noopener">POLAR-2 – Latest Developments of the Next Generation GRB Polarimeter</a>
         </strong>
         <br/>Johannes H<small>ULSMAN</small> et al.<br/>
         <span>PoS, ICRC2025</span>
         <span><b>501</b></span> <span>687</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2511.09419" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2511.09419" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.22323/1.501.0622" target="_blank">Solar Flare Hard X-ray Polarimetry with the CUbesat Solar Polarimeter (CUSP) mission</a>
+          <a href="https://doi.org/10.22323/1.501.0622" target="_blank" rel="noopener">Solar Flare Hard X-ray Polarimetry with the CUbesat Solar Polarimeter (CUSP) mission</a>
         </strong>
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
         <span>PoS, ICRC2025</span>
         <span><b>501</b></span> <span>622</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2509.13104" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2509.13104" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3063207" target="_blank">Gamma-ray burst polarimetry with the POLAR and POLAR-2 missions</a>
+          <a href="https://doi.org/10.1117/12.3063207" target="_blank" rel="noopener">Gamma-ray burst polarimetry with the POLAR and POLAR-2 missions</a>
         </strong>
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
         <span>SPIE -- UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXIV</span>
         <span><b>13625</b></span> <span>1362502</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2509.06601" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2509.06601" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3064462" target="_blank">The multiphysics analysis, design, and testing of CUSP, a CubeSat mission for space weather and solar flares x-ray polarimetry</a>
+          <a href="https://doi.org/10.1117/12.3064462" target="_blank" rel="noopener">The multiphysics analysis, design, and testing of CUSP, a CubeSat mission for space weather and solar flares x-ray polarimetry</a>
         </strong>
         <br/>Giovanni L<small>OMBARDI</small> et al.<br/>
         <span>SPIE -- UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXIV</span>
         <span><b>13625</b></span> <span>136251W</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2508.02594" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2508.02594" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3064319" target="_blank">Cubesat solar polarimeter (CUSP) sensitivity estimation and performance optimization using Geant4</a>
+          <a href="https://doi.org/10.1117/12.3064319" target="_blank" rel="noopener">Cubesat solar polarimeter (CUSP) sensitivity estimation and performance optimization using Geant4</a>
         </strong>
         <br/>Abhay K<small>UMAR</small> et al.<br/>
         <span>SPIE -- UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXIV</span>
         <span><b>13625</b></span> <span>136251N</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2508.00780" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2508.00780" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3064310" target="_blank">The CubeSat solar polarimeter (CUSP): mission overview II</a>
+          <a href="https://doi.org/10.1117/12.3064310" target="_blank" rel="noopener">The CubeSat solar polarimeter (CUSP): mission overview II</a>
         </strong>
         <br/>Sergio F<small>ABIANI</small> et al.<br/>
         <span>SPIE -- UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXIV</span>
         <span><b>13625</b></span> <span>136250F</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2508.00661" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2508.00661" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3064478" target="_blank">Study of the HV power supply modules for the CUbesat solar polarimeter (CUSP)</a>
+          <a href="https://doi.org/10.1117/12.3064478" target="_blank" rel="noopener">Study of the HV power supply modules for the CUbesat solar polarimeter (CUSP)</a>
         </strong>
         <br/>Alessandro L<small>ACERENZA</small> et al.<br/>
         <span>SPIE -- Hard X-Ray, Gamma-Ray, and Neutron Detector Physics XXVII</span>
         <span><b>13621</b></span> <span>136210S</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2508.00647" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2508.00647" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3064407" target="_blank">Prototype development and calibration of the CUbesat solar polarimeter (CUSP)</a>
+          <a href="https://doi.org/10.1117/12.3064407" target="_blank" rel="noopener">Prototype development and calibration of the CUbesat solar polarimeter (CUSP)</a>
         </strong>
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
         <span>SPIE -- Hard X-Ray, Gamma-Ray, and Neutron Detector Physics XXVII</span>
         <span><b>13621</b></span> <span>1362108</span> <span><i>(2025)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2508.00642" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2508.00642" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-  </div>
+    </div>
+  </details>
 
-  <button class="cbCollapse">2024</button>
-  <div class="content">
-      <p style="margin-left: 20px;">
+  <details class="accordion">
+    <summary>2024</summary>
+    <div class="accordion-content">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/1.JATIS.10.4.042503" target="_blank">Spectroscopic Time-Resolving Observatory for Broadband Energy X-ray high-energy modular array</a>
+          <a href="https://doi.org/10.1117/1.JATIS.10.4.042503" target="_blank" rel="noopener">Spectroscopic Time-Resolving Observatory for Broadband Energy X-ray high-energy modular array</a>
         </strong>
         <br/>Anthony L. H<small>UTCHESON</small> et al.<br/>
         <span>Journal of Astronomical Telescopes, Instruments, and Systems</span>
         <span><b>10(4)</b></span> <span>042503</span> <span><i>(2024)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2410.08346" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2410.08346" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.3390/s24248016" target="_blank">Design and Test of a Calibration System for Avalanche Photodiodes Used in X-Ray Compton Polarimeters for Space</a>
+          <a href="https://doi.org/10.3390/s24248016" target="_blank" rel="noopener">Design and Test of a Calibration System for Avalanche Photodiodes Used in X-Ray Compton Polarimeters for Space</a>
         </strong>
         <br/>Andrea A<small>LIMENTI</small> et al.<br/>
         <span>Sensors</span>
         <span><b>24</b></span> <span>24</span> <span><i>(2024)</i></span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.3390/galaxies12040047" target="_blank">Considerations on Possible Directions for a Wide Band Polarimetry X-ray Mission</a>
+          <a href="https://doi.org/10.3390/galaxies12040047" target="_blank" rel="noopener">Considerations on Possible Directions for a Wide Band Polarimetry X-ray Mission</a>
         </strong>
         <br/>Paolo S<small>OFFITTA</small> et al.<br/>
         <span>Galaxies</span>
         <span><b>12</b></span> <span>4</span> <span><i>(2024)</i></span>
-        <span>[<a href="http://arxiv.org/abs/" target="_blank">arXiv</a>]</span>
+        {% comment %}TODO: add the arXiv link when available{% endcomment %}
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1088/1748-0221/19/08/P08002" target="_blank">Response of the first POLAR-2 prototype to polarized beams</a>
+          <a href="https://doi.org/10.1088/1748-0221/19/08/P08002" target="_blank" rel="noopener">Response of the first POLAR-2 prototype to polarized beams</a>
         </strong>
         <br/>Merlin K<small>OLE</small> et al.<br/>
         <span>Journal of Instrumentation</span>
         <span><b>19(08)</b></span> <span>P08002</span> <span><i>(2024)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2406.05783" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2406.05783" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.3390/universe10040187" target="_blank">Future Perspectives for Gamma-ray Burst Detection from Space</a>
+          <a href="https://doi.org/10.3390/universe10040187" target="_blank" rel="noopener">Future Perspectives for Gamma-ray Burst Detection from Space</a>
         </strong>
         <br/>Enrico B<small>OZZO</small> et al.<br/>
         <span>Universe</span>
         <span><b>10</b></span> <span>4</span> <span><i>(2024)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2404.11808" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2404.11808" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3019868" target="_blank">The Large Area Detector for the eXTP mission</a>
+          <a href="https://doi.org/10.1117/12.3019868" target="_blank" rel="noopener">The Large Area Detector for the eXTP mission</a>
         </strong>
         <br/>Marco F<small>EROCI</small> et al.<br/>
         <span>Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray</span>
         <span><b>13093</b></span> <span>130931X</span> <span><i>(2024)</i></span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3020230" target="_blank">Managing the mass production for the LAD instrument onboard eXTP</a>
+          <a href="https://doi.org/10.1117/12.3020230" target="_blank" rel="noopener">Managing the mass production for the LAD instrument onboard eXTP</a>
         </strong>
         <br/>Gabriele M<small>MINERVINI</small> et al.<br/>
         <span>Modeling, Systems Engineering, and Project Management for Astronomy XI</span>
         <span><b>13099</b></span> <span>130991D</span> <span><i>(2024)</i></span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3019964" target="_blank">In search of the third dimension in Compton x-ray polarimeters</a>
+          <a href="https://doi.org/10.1117/12.3019964" target="_blank" rel="noopener">In search of the third dimension in Compton x-ray polarimeters</a>
         </strong>
         <br/>Fabio M<small>ULERI</small> et al.<br/>
         <span>Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray</span>
         <span><b>13093</b></span> <span>1309382</span> <span><i>(2024)</i></span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3018943" target="_blank">Characterization of avalanche photodiodes (APDs) for the CUbesat Solar Polarimeter (CUSP) mission</a>
+          <a href="https://doi.org/10.1117/12.3018943" target="_blank" rel="noopener">Characterization of avalanche photodiodes (APDs) for the CUbesat Solar Polarimeter (CUSP) mission</a>
         </strong>
         <br/>Fabrizio C<small>OLOGGI</small> et al.<br/>
         <span>Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray</span>
         <span><b>13093</b></span> <span>1309384</span> <span><i>(2024)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2407.04136" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2407.04136" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3020552" target="_blank">The legacy of IXPE: directions towards a new generation of 3D photo-electric x-ray polarimetry missions</a>
+          <a href="https://doi.org/10.1117/12.3020552" target="_blank" rel="noopener">The legacy of IXPE: directions towards a new generation of 3D photo-electric x-ray polarimetry missions</a>
         </strong>
         <br/>Ajay R<small>ATHEESH</small> et al.<br/>
         <span>Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray</span>
         <span><b>13093</b></span> <span>1309386</span> <span><i>(2024)</i></span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3018369" target="_blank">The multiphysics analysis and design of CUSP, a two CubeSat constellation for space weather and solar flares x-ray polarimetry</a>
+          <a href="https://doi.org/10.1117/12.3018369" target="_blank" rel="noopener">The multiphysics analysis and design of CUSP, a two CubeSat constellation for space weather and solar flares x-ray polarimetry</a>
         </strong>
         <br/>Giovanni L<small>OMBARDI</small> et al.<br/>
         <span>Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray</span>
         <span><b>13093</b></span> <span>1309383</span> <span><i>(2024)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2407.04135" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2407.04135" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3019836" target="_blank">The evaluation of the CUSP scientific performance by a GEANT4 Monte Carlo simulation</a>
+          <a href="https://doi.org/10.1117/12.3019836" target="_blank" rel="noopener">The evaluation of the CUSP scientific performance by a GEANT4 Monte Carlo simulation</a>
         </strong>
         <br/>Giovanni D<small>E</small> C<small>ESARE</small> et al.<br/>
         <span>Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray</span>
         <span><b>13093</b></span> <span>1309377</span> <span><i>(2024)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2407.04134" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2407.04134" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <strong>
-          <a href="https://doi.org/10.1117/12.3018158" target="_blank">The CUbesat Solar Polarimeter (CUSP) mission overview</a>
+          <a href="https://doi.org/10.1117/12.3018158" target="_blank" rel="noopener">The CUbesat Solar Polarimeter (CUSP) mission overview</a>
         </strong>
         <br/>Sergio F<small>ABIANI</small> et al.<br/>
         <span>Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray</span>
         <span><b>13093</b></span> <span>130932M</span> <span><i>(2024)</i></span>
-        <span>[<a href="http://arxiv.org/abs/2407.04748" target="_blank">arXiv</a>]</span>
+        <span>[<a href="https://arxiv.org/abs/2407.04748" target="_blank" rel="noopener">arXiv</a>]</span>
       </p>
-  </div>
+    </div>
+  </details>
 
-  <button class="cbCollapse">2023</button>
-  <div class="content">
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.13097/archive-ouverte/unige:173869" target="_blank">Development of the Next Generation Space-based Compton Polarimeter and Energy Resolved Polarization Analysis of Gamma-Ray Bursts Prompt Emission</a>
-      </strong>
-      <br/>Nicolas D<small>E</small> A<small>NGELIS</small><br/>
-      <span>PhD thesis, University of Geneva - <b>Sc. 5785</b></span>
-      <span>[<a href="https://cds.cern.ch/record/2884276" target="_blank">CDS</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.22323/1.444.0619" target="_blank">Energy-dependent polarization of Gamma-Ray Bursts’ prompt emission with the POLAR and POLAR-2 instruments</a>
-      </strong>
-      <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
-      <span>Proceedings of Science - 38th International Cosmic Ray Conference (ICRC2023)</span>
-      <span><b>444</b></span> <span>619</span> <span><i>(2023)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2309.00507" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.22323/1.444.0550" target="_blank">POLAR-2, the next generation of GRB polarization detector</a>
-      </strong>
-      <br/>Nicolas P<small>RODUIT</small> et al.<br/>
-      <span>Proceedings of Science - 38th International Cosmic Ray Conference (ICRC2023)</span>
-      <span><b>444</b></span> <span>550</span> <span><i>(2023)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2309.00518" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.1007/s10686-023-09906-8" target="_blank">Proton irradiation of plastic scintillator bars for POLAR-2</a>
-      </strong>
-      <br/>Slawomir M<small>IANOWSKI</small> et al.<br/>
-      <span>Experimental Astronomy</span>
-      <span><b>56</b></span> <span>355–370</span> <span><i>(July 2023)</i></span>
-      <span>[<a href="http://arxiv.org/abs/2307.02128" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.1016/j.nima.2022.167934" target="_blank">Temperature dependence of radiation damage annealing of Silicon Photomultipliers</a>
-      </strong>
-      <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
-      <span>Nuclear Instruments and Methods in Physics Research Section</span>
-      <span><b>A 1048</b> 167934</span><span><i>(March 2023)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2212.08474" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.1088/1748-0221/18/01/P01037" target="_blank">Characterisation of the MUSIC ASIC for large-area silicon photomultipliers for gamma-ray astronomy</a>
-      </strong>
-      <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
-      <span>JINST</span>
-      <span><b>18</b> P01037</span><span><i>(January 2023)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2211.14022" target="_blank">arXiv</a>]</span>
-    </p>
-  </div>
-
-  <button class="cbCollapse">2022</button>
-  <div class="content">
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.1007/s10686-022-09873-6" target="_blank">Proton Irradiation of SiPM arrays for POLAR-2</a>
-      </strong>
-      <br/>Slawomir M<small>IANOWSKI</small> et al.<br/>
-      <span>Experimental Astronomy</span>
-      <span><b>55</b> 343-371</span> <span><i>(October 2022)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2210.01457" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.1117/12.2628814" target="_blank">The Large Area Detector onboard the eXTP mission</a>
-      </strong>
-      <br/>Marco F<small>EROCI</small> et al.<br/>
-      <span>SPIE Proceedings</span>
-      <span><b>V. 12181</b></span> <span>Space Telescopes and Instrumentation 2022: Ultraviolet to Gamma Ray</span> <span><i>(2022)</i></span>
-      <span>[<a href="" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.1117/12.2630462" target="_blank">The digital data processing concepts of the Large Area Detector and the Wide Field Monitor onboard eXTP</a>
-      </strong>
-      <br/>Hao X<small>IONG</small> et al.<br/>
-      <span>SPIE Proceedings</span>
-      <span><b>V. 12181</b></span> <span>Space Telescopes and Instrumentation 2022: Ultraviolet to Gamma Ray</span> <span><i>(2022)</i></span>
-      <span>[<a href="" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.1093/mnras/stac522" target="_blank">Gamma-Ray Polarimetry of the Crab Pulsar Observed by POLAR</a>
-      </strong>
-      <br/>Hancheng L<small>I</small> et al.<br/>
-      <span>Monthly Notices of the Royal Astronomical Society</span>
-      <span><b>Volume 512</b></span> <span>Issue 2</span> <span><i>(2022)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2202.10877" target="_blank">arXiv</a>]</span>
-    </p>
-  </div>
-
-
-  <button class="cbCollapse">2021</button>
-  <div class="content">
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="http://dx.doi.org/10.22323/1.395.0580" target="_blank">Development and science perspectives of the POLAR-2 instrument: a large scale GRB polarimeter</a>
-      </strong>
-      <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
-      <span>Proceedings of Science - 37th International Cosmic Ray Conference (ICRC2021)</span>
-      <span><b>395</b></span> <span>580</span> <span><i>(2021)</i></span>
-      <span>[<a href="http://arxiv.org/abs/arXiv:2109.02978" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.22323/1.395.0600" target="_blank">Gamma-Ray Polarization Results of the POLAR Mission and Future Prospects</a>
-      </strong>
-      <br/>Merlin K<small>OLE</small> et al.<br/>
-      <span>Proceedings of Science - 37th International Cosmic Ray Conference (ICRC2021)</span>
-      <span><b>395</b></span> <span>600</span> <span><i>(2021)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2109.02977" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.22323/1.395.0585" target="_blank">Polarization measurements of the Crab Pulsar with POLAR</a>
-      </strong>
-      <br/>Hancheng L<small>I</small> et al.<br/>
-      <span>Proceedings of Science - 37th International Cosmic Ray Conference (ICRC2021)</span>
-      <span><b>395</b></span> <span>585</span> <span><i>(2021)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2109.03142" target="_blank">arXiv</a>]</span>
-    </p>
-  </div>
-
-  <button class="cbCollapse">2020</button>
-  <div class="content">
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.1117/12.2559374" target="_blank">POLAR-2: a large scale gamma-ray polarimeter for GRBs</a>
-      </strong>
-      <br/>Johannes H<small>ULSMAN</small> et al.<br/>
-      <span>SPIE Proceedings</span>
-      <span><b>V. 11444</b></span> <span>Space Telescopes and Instrumentation 2020: Ultraviolet to Gamma Ray</span> <span><i>(2020)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2101.03084" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.1051/0004-6361/202037915" target="_blank">The POLAR gamma-ray burst polarization catalog</a>
-      </strong>
-      <br/>Merlin K<small>OLE</small> et al.<br/>
-      <span>A&A</span>
-      <span><b>644</b></span> <span>A124</span> <span><i>(2020)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2009.04871" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.1088/1748-0221/15/11/P11010" target="_blank">Large scale characterization and calibration strategy of a SiPM-based camera for gamma-ray astronomy</a>
-      </strong>
-      <br/>Cyril A<small>LISPACH</small> et al.<br/>
-      <span>JINST</span>
-      <span><b>15</b></span> <span>P11010</span> <span><i>(2020)</i></span>
-      <span>[<a href="https://arxiv.org/abs/2008.04716" target="_blank">arXiv</a>]</span>
-    </p>
-  </div>
-
-  <button class="cbCollapse">2019</button>
-  <div class="content">
-      <p style="margin-left: 20px;">
+  <details class="accordion">
+    <summary>2023</summary>
+    <div class="accordion-content">
+      <p class="entry">
         <strong>
-          <a href="https://dpnc.unige.ch/MASTERS/MASTER_DE_ANGELIS.pdf" target="_blank">Studies of readout electronics and optical elements for a gamma-ray telescope</a>
+          <a href="https://doi.org/10.13097/archive-ouverte/unige:173869" target="_blank" rel="noopener">Development of the Next Generation Space-based Compton Polarimeter and Energy Resolved Polarization Analysis of Gamma-Ray Bursts Prompt Emission</a>
+        </strong>
+        <br/>Nicolas D<small>E</small> A<small>NGELIS</small><br/>
+        <span>PhD thesis, University of Geneva - <b>Sc. 5785</b></span>
+        <span>[<a href="https://cds.cern.ch/record/2884276" target="_blank" rel="noopener">CDS</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.22323/1.444.0619" target="_blank" rel="noopener">Energy-dependent polarization of Gamma-Ray Bursts’ prompt emission with the POLAR and POLAR-2 instruments</a>
+        </strong>
+        <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
+        <span>Proceedings of Science - 38th International Cosmic Ray Conference (ICRC2023)</span>
+        <span><b>444</b></span> <span>619</span> <span><i>(2023)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2309.00507" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.22323/1.444.0550" target="_blank" rel="noopener">POLAR-2, the next generation of GRB polarization detector</a>
+        </strong>
+        <br/>Nicolas P<small>RODUIT</small> et al.<br/>
+        <span>Proceedings of Science - 38th International Cosmic Ray Conference (ICRC2023)</span>
+        <span><b>444</b></span> <span>550</span> <span><i>(2023)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2309.00518" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.1007/s10686-023-09906-8" target="_blank" rel="noopener">Proton irradiation of plastic scintillator bars for POLAR-2</a>
+        </strong>
+        <br/>Slawomir M<small>IANOWSKI</small> et al.<br/>
+        <span>Experimental Astronomy</span>
+        <span><b>56</b></span> <span>355–370</span> <span><i>(July 2023)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2307.02128" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.1016/j.nima.2022.167934" target="_blank" rel="noopener">Temperature dependence of radiation damage annealing of Silicon Photomultipliers</a>
+        </strong>
+        <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
+        <span>Nuclear Instruments and Methods in Physics Research Section</span>
+        <span><b>A 1048</b> 167934</span><span><i>(March 2023)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2212.08474" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.1088/1748-0221/18/01/P01037" target="_blank" rel="noopener">Characterisation of the MUSIC ASIC for large-area silicon photomultipliers for gamma-ray astronomy</a>
+        </strong>
+        <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
+        <span>JINST</span>
+        <span><b>18</b> P01037</span><span><i>(January 2023)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2211.14022" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+    </div>
+  </details>
+
+  <details class="accordion">
+    <summary>2022</summary>
+    <div class="accordion-content">
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.1007/s10686-022-09873-6" target="_blank" rel="noopener">Proton Irradiation of SiPM arrays for POLAR-2</a>
+        </strong>
+        <br/>Slawomir M<small>IANOWSKI</small> et al.<br/>
+        <span>Experimental Astronomy</span>
+        <span><b>55</b> 343-371</span> <span><i>(October 2022)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2210.01457" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.1117/12.2628814" target="_blank" rel="noopener">The Large Area Detector onboard the eXTP mission</a>
+        </strong>
+        <br/>Marco F<small>EROCI</small> et al.<br/>
+        <span>SPIE Proceedings</span>
+        <span><b>V. 12181</b></span> <span>Space Telescopes and Instrumentation 2022: Ultraviolet to Gamma Ray</span> <span><i>(2022)</i></span>
+        {% comment %}TODO: add the arXiv link when available{% endcomment %}
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.1117/12.2630462" target="_blank" rel="noopener">The digital data processing concepts of the Large Area Detector and the Wide Field Monitor onboard eXTP</a>
+        </strong>
+        <br/>Hao X<small>IONG</small> et al.<br/>
+        <span>SPIE Proceedings</span>
+        <span><b>V. 12181</b></span> <span>Space Telescopes and Instrumentation 2022: Ultraviolet to Gamma Ray</span> <span><i>(2022)</i></span>
+        {% comment %}TODO: add the arXiv link when available{% endcomment %}
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.1093/mnras/stac522" target="_blank" rel="noopener">Gamma-Ray Polarimetry of the Crab Pulsar Observed by POLAR</a>
+        </strong>
+        <br/>Hancheng L<small>I</small> et al.<br/>
+        <span>Monthly Notices of the Royal Astronomical Society</span>
+        <span><b>Volume 512</b></span> <span>Issue 2</span> <span><i>(2022)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2202.10877" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+    </div>
+  </details>
+
+  <details class="accordion">
+    <summary>2021</summary>
+    <div class="accordion-content">
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.22323/1.395.0580" target="_blank" rel="noopener">Development and science perspectives of the POLAR-2 instrument: a large scale GRB polarimeter</a>
+        </strong>
+        <br/>Nicolas D<small>E</small> A<small>NGELIS</small> et al.<br/>
+        <span>Proceedings of Science - 37th International Cosmic Ray Conference (ICRC2021)</span>
+        <span><b>395</b></span> <span>580</span> <span><i>(2021)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2109.02978" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.22323/1.395.0600" target="_blank" rel="noopener">Gamma-Ray Polarization Results of the POLAR Mission and Future Prospects</a>
+        </strong>
+        <br/>Merlin K<small>OLE</small> et al.<br/>
+        <span>Proceedings of Science - 37th International Cosmic Ray Conference (ICRC2021)</span>
+        <span><b>395</b></span> <span>600</span> <span><i>(2021)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2109.02977" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.22323/1.395.0585" target="_blank" rel="noopener">Polarization measurements of the Crab Pulsar with POLAR</a>
+        </strong>
+        <br/>Hancheng L<small>I</small> et al.<br/>
+        <span>Proceedings of Science - 37th International Cosmic Ray Conference (ICRC2021)</span>
+        <span><b>395</b></span> <span>585</span> <span><i>(2021)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2109.03142" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+    </div>
+  </details>
+
+  <details class="accordion">
+    <summary>2020</summary>
+    <div class="accordion-content">
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.1117/12.2559374" target="_blank" rel="noopener">POLAR-2: a large scale gamma-ray polarimeter for GRBs</a>
+        </strong>
+        <br/>Johannes H<small>ULSMAN</small> et al.<br/>
+        <span>SPIE Proceedings</span>
+        <span><b>V. 11444</b></span> <span>Space Telescopes and Instrumentation 2020: Ultraviolet to Gamma Ray</span> <span><i>(2020)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2101.03084" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.1051/0004-6361/202037915" target="_blank" rel="noopener">The POLAR gamma-ray burst polarization catalog</a>
+        </strong>
+        <br/>Merlin K<small>OLE</small> et al.<br/>
+        <span>A&amp;A</span>
+        <span><b>644</b></span> <span>A124</span> <span><i>(2020)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2009.04871" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.1088/1748-0221/15/11/P11010" target="_blank" rel="noopener">Large scale characterization and calibration strategy of a SiPM-based camera for gamma-ray astronomy</a>
+        </strong>
+        <br/>Cyril A<small>LISPACH</small> et al.<br/>
+        <span>JINST</span>
+        <span><b>15</b></span> <span>P11010</span> <span><i>(2020)</i></span>
+        <span>[<a href="https://arxiv.org/abs/2008.04716" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+    </div>
+  </details>
+
+  <details class="accordion">
+    <summary>2019</summary>
+    <div class="accordion-content">
+      <p class="entry">
+        <strong>
+          <a href="https://dpnc.unige.ch/MASTERS/MASTER_DE_ANGELIS.pdf" target="_blank" rel="noopener">Studies of readout electronics and optical elements for a gamma-ray telescope</a>
         </strong>
         <br/>Nicolas D<small>E</small> A<small>NGELIS</small><br/>
         <span>Master thesis, University of Geneva</span>
-        <span>[<a href="https://cds.cern.ch/record/2683289" target="_blank">CDS</a>]</span>
+        <span>[<a href="https://cds.cern.ch/record/2683289" target="_blank" rel="noopener">CDS</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.22323/1.358.0617" target="_blank">Calibration and operation of SiPM-based cameras for gamma-ray astronomy in presence of high night-sky light</a>
-      </strong>
-      <br/>Cyril A<small>LISPACH</small> et al.<br/>
-      <span>Proceedings of Science - 36th International Cosmic Ray Conference (ICRC2019)</span>
-      <span><b>358</b></span> <span>617</span> <span><i>(2019)</i></span>
-      <span>[<a href="https://arxiv.org/abs/1908.06860" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.22323/1.358.0708" target="_blank">Monte Carlo study of single SST-1M prototype for Cherenkov Telescope Array</a>
-      </strong>
-      <br/>Jakub J<small>URYSEK</small> et al.<br/>
-      <span>Proceedings of Science - 36th International Cosmic Ray Conference (ICRC2019)</span>
-      <span><b>358</b></span> <span>708</span> <span><i>(2019)</i></span>
-      <span>[<a href="https://arxiv.org/abs/1907.08061" target="_blank">arXiv</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <strong>
-        <a href="https://doi.org/10.22323/1.358.0694" target="_blank">The SST-1M project for the Cherenkov Telescope Array</a>
-      </strong>
-      <br/>Matthieu H<small>ELLER</small> et al.<br/>
-      <span>Proceedings of Science - 36th International Cosmic Ray Conference (ICRC2019)</span>
-      <span><b>358</b></span> <span>694</span> <span><i>(2019)</i></span>
-    </p>
-  </div>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.22323/1.358.0617" target="_blank" rel="noopener">Calibration and operation of SiPM-based cameras for gamma-ray astronomy in presence of high night-sky light</a>
+        </strong>
+        <br/>Cyril A<small>LISPACH</small> et al.<br/>
+        <span>Proceedings of Science - 36th International Cosmic Ray Conference (ICRC2019)</span>
+        <span><b>358</b></span> <span>617</span> <span><i>(2019)</i></span>
+        <span>[<a href="https://arxiv.org/abs/1908.06860" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.22323/1.358.0708" target="_blank" rel="noopener">Monte Carlo study of single SST-1M prototype for Cherenkov Telescope Array</a>
+        </strong>
+        <br/>Jakub J<small>URYSEK</small> et al.<br/>
+        <span>Proceedings of Science - 36th International Cosmic Ray Conference (ICRC2019)</span>
+        <span><b>358</b></span> <span>708</span> <span><i>(2019)</i></span>
+        <span>[<a href="https://arxiv.org/abs/1907.08061" target="_blank" rel="noopener">arXiv</a>]</span>
+      </p>
+      <p class="entry">
+        <strong>
+          <a href="https://doi.org/10.22323/1.358.0694" target="_blank" rel="noopener">The SST-1M project for the Cherenkov Telescope Array</a>
+        </strong>
+        <br/>Matthieu H<small>ELLER</small> et al.<br/>
+        <span>Proceedings of Science - 36th International Cosmic Ray Conference (ICRC2019)</span>
+        <span><b>358</b></span> <span>694</span> <span><i>(2019)</i></span>
+      </p>
+    </div>
+  </details>
 
 </div>
 
 <div class="user-details">
-  <h1 id="talks"> Conferences & Talks </h1>
-  <button class="cbCollapse">2026</button>
-  <div class="content">
-      <p style="margin-left: 20px;">
+  <h2 class="section-title" id="talks">Conferences &amp; Talks</h2>
+  <details class="accordion">
+    <summary>2026</summary>
+    <div class="accordion-content">
+      <p class="entry">
         <span><b>Compton Polarimeter Prototype for the CUbesat Solar Polarimeter mission</b></span><br/>
-        <span><a href="https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation" target="_blank">SPIE Astronomical Telescopes + Instrumentation</a></span> <span><b>Copenhagen, Denmark</b></span> <span><i>July 05-10th</i></span>
-        <span>[<a href="{{site.docs_download_link}}SPIE2026.pdf" target="_blank">Slides</a>]</span>
+        <span><a href="https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation" target="_blank" rel="noopener">SPIE Astronomical Telescopes + Instrumentation</a></span> <span><b>Copenhagen, Denmark</b></span> <span><i>July 05-10th</i></span>
+        <span>[<a href="{{site.docs_download_link}}SPIE2026.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
-        <span><b>Scientific Prospects of the POLAR-2 Mission - </b></span><span style="color:red;"><i>Invited talk</i></span><br/>
-        <span><a href="http://frapws2026.cnr.it/" target="_blank">Mondello Workshop 2026, Frontier Research in Astrophysics - V</a></span> <span><b>Mondello, Palermo, Italy</b></span> <span><i>June 15-20th</i></span>
-        <span>[<a href="{{site.docs_download_link}}Mondello2026.pdf" target="_blank">Slides</a>]</span>
+      <p class="entry">
+        <span><b>Scientific Prospects of the POLAR-2 Mission - </b></span><span class="tag-invited"><i>Invited talk</i></span><br/>
+        <span><a href="http://frapws2026.cnr.it/" target="_blank" rel="noopener">Mondello Workshop 2026, Frontier Research in Astrophysics - V</a></span> <span><b>Mondello, Palermo, Italy</b></span> <span><i>June 15-20th</i></span>
+        <span>[<a href="{{site.docs_download_link}}Mondello2026.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-  </div>
+    </div>
+  </details>
   
-  <button class="cbCollapse">2025</button>
-  <div class="content">
-      <p style="margin-left: 20px;">
+  <details class="accordion">
+    <summary>2025</summary>
+    <div class="accordion-content">
+      <p class="entry">
         <span><b>Solar Flare Hard X-ray Polarimetry with the CUbesat Solar Polarimeter (CUSP) mission</b></span><br/>
-        <span><a href="https://www.cospar-assembly.org/admin/congress.php?congress=12/" target="_blank">COSPAR Symposium</a></span> <span><b>Nicosia, Cyprus</b></span> <span><i>November 3-7th</i></span>
-        <span>[<a href="{{site.docs_download_link}}COSPARSymp2025.pdf" target="_blank">Slides</a>]</span>
+        <span><a href="https://www.cospar-assembly.org/admin/congress.php?congress=12/" target="_blank" rel="noopener">COSPAR Symposium</a></span> <span><b>Nicosia, Cyprus</b></span> <span><i>November 3-7th</i></span>
+        <span>[<a href="{{site.docs_download_link}}COSPARSymp2025.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
-        <span><b>Voir l’invisible: les rayons X et gamma comme scanner cosmique - </b></span><span style="color:red;"><i>Invited outreach seminar</i></span><br/>
-        <span><a href="https://www.astroval.ch/" target="_blank">AstroVal Astronomical Observatory</a></span> <span><b>Le Chenit, Switzerland</b></span> <span><i>September 2nd</i></span>
-        <span>[<a href="{{site.docs_download_link}}Seminar_Outreach_ImagingHighEnergyAstro_Astroval.pdf" target="_blank">Slides</a>]</span>
+      <p class="entry">
+        <span><b>Voir l’invisible: les rayons X et gamma comme scanner cosmique - </b></span><span class="tag-invited"><i>Invited outreach seminar</i></span><br/>
+        <span><a href="https://www.astroval.ch/" target="_blank" rel="noopener">AstroVal Astronomical Observatory</a></span> <span><b>Le Chenit, Switzerland</b></span> <span><i>September 2nd</i></span>
+        <span>[<a href="{{site.docs_download_link}}Seminar_Outreach_ImagingHighEnergyAstro_Astroval.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>Gamma-Ray Burst Polarimetry with the POLAR and POLAR-2 missions</b></span><br/>
-        <span><a href="https://spie.org/conferences-and-exhibitions/optics-and-photonics/" target="_blank">SPIE Optics + Photonics</a></span> <span><b>San Diego (CA), USA</b></span> <span><i>August 3-7th</i></span>
-        <span>[<a href="{{site.docs_download_link}}SPIE2025_POLAR-2.pdf" target="_blank">Slides</a>]</span>
+        <span><a href="https://spie.org/conferences-and-exhibitions/optics-and-photonics/" target="_blank" rel="noopener">SPIE Optics + Photonics</a></span> <span><b>San Diego (CA), USA</b></span> <span><i>August 3-7th</i></span>
+        <span>[<a href="{{site.docs_download_link}}SPIE2025_POLAR-2.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>Prototype Development and Calibration of the CUbesat Solar Polarimeter (CUSP)</b></span><br/>
-        <span><a href="https://spie.org/conferences-and-exhibitions/optics-and-photonics/" target="_blank">SPIE Optics + Photonics</a></span> <span><b>San Diego (CA), USA</b></span> <span><i>August 3-7th</i></span>
-        <span>[<a href="{{site.docs_download_link}}SPIE2025_CUSP.pdf" target="_blank">Slides</a>]</span>
+        <span><a href="https://spie.org/conferences-and-exhibitions/optics-and-photonics/" target="_blank" rel="noopener">SPIE Optics + Photonics</a></span> <span><b>San Diego (CA), USA</b></span> <span><i>August 3-7th</i></span>
+        <span>[<a href="{{site.docs_download_link}}SPIE2025_CUSP.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>Solar Flare Hard X-ray Polarimetry with the CUbesat Solar Polarimeter (CUSP) mission</b></span><br/>
-        <span><a href="https://indico.cern.ch/event/1258933/" target="_blank">39th International Cosmic Ray Conference, ICRC2025</a></span> <span><b>Geneva, Switzerland</b></span> <span><i>July 15-24th</i></span>
-        <span>[<a href="{{site.docs_download_link}}ICRC2025_Geneva.pdf" target="_blank">Slides</a>]</span>
+        <span><a href="https://indico.cern.ch/event/1258933/" target="_blank" rel="noopener">39th International Cosmic Ray Conference, ICRC2025</a></span> <span><b>Geneva, Switzerland</b></span> <span><i>July 15-24th</i></span>
+        <span>[<a href="{{site.docs_download_link}}ICRC2025_Geneva.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
-        <span><b>Considerations on Possible Directions for a Wide Band Polarimetry X-ray Mission - </b></span><span style="color:red;"><i>Invited talk</i></span><br/>
-        <span><a href="https://workshop2025.iaps.inaf.it/" target="_blank">Frascati Workshop 2025,  Multifrequency Behaviour of High Energy Cosmic Sources - XV</a></span> <span><b>Mondello, Palermo, Italy</b></span> <span><i>June 9-14th</i></span>
-        <span>[<a href="{{site.docs_download_link}}Frascati2025.pdf" target="_blank">Slides</a>]</span>
-        <span><b>+ <span style="color:red;">Session convener</span>: Ongoing Experiments</b></span>
+      <p class="entry">
+        <span><b>Considerations on Possible Directions for a Wide Band Polarimetry X-ray Mission - </b></span><span class="tag-invited"><i>Invited talk</i></span><br/>
+        <span><a href="https://workshop2025.iaps.inaf.it/" target="_blank" rel="noopener">Frascati Workshop 2025,  Multifrequency Behaviour of High Energy Cosmic Sources - XV</a></span> <span><b>Mondello, Palermo, Italy</b></span> <span><i>June 9-14th</i></span>
+        <span>[<a href="{{site.docs_download_link}}Frascati2025.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+        <span><b>+ <span class="tag-invited">Session convener</span>: Ongoing Experiments</b></span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>Solar Flare Hard X-ray Polarimetry with the CUbesat Solar Polarimeter (CUSP) mission </b></span><br/>
-        <span><a href="https://indico.cern.ch/event/1463191/" target="_blank">Advances in Space AstroParticle Physics, ASAPP2025</a></span> <span><b>Sant Feliu de Guíxols, Spain</b></span> <span><i>May 12-16th</i></span>
-        <span>[<a href="{{site.docs_download_link}}ASAPP2025_CUSP.pdf" target="_blank">Slides</a>]</span>
+        <span><a href="https://indico.cern.ch/event/1463191/" target="_blank" rel="noopener">Advances in Space AstroParticle Physics, ASAPP2025</a></span> <span><b>Sant Feliu de Guíxols, Spain</b></span> <span><i>May 12-16th</i></span>
+        <span>[<a href="{{site.docs_download_link}}ASAPP2025_CUSP.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>POLAR-2, the next generation of GRB polarization detector (Poster + flash talk)</b></span><br/>
-        <span><a href="https://indico.cern.ch/event/1463191/" target="_blank">Advances in Space AstroParticle Physics, ASAPP2025</a></span> <span><b>Sant Feliu de Guíxols, Spain</b></span> <span><i>May 12-16th</i></span>
-        <span>[<a href="{{site.docs_download_link}}IXPO2024_POLAR-2.pdf" target="_blank">Poster</a>, <a href="{{site.docs_download_link}}ASAPP2025_POLAR-2_flashtalk.pdf" target="_blank">Flash Talk</a>]</span>
+        <span><a href="https://indico.cern.ch/event/1463191/" target="_blank" rel="noopener">Advances in Space AstroParticle Physics, ASAPP2025</a></span> <span><b>Sant Feliu de Guíxols, Spain</b></span> <span><i>May 12-16th</i></span>
+        <span>[<a href="{{site.docs_download_link}}IXPO2024_POLAR-2.pdf" target="_blank" rel="noopener">Poster</a>, <a href="{{site.docs_download_link}}ASAPP2025_POLAR-2_flashtalk.pdf" target="_blank" rel="noopener">Flash Talk</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>POLAR-2, the next generation of GRB polarization detector (Poster + flash talk)</b></span><br/>
-        <span><a href="https://indico.gssi.it/event/763/" target="_blank">Frontiers in X-ray Polarimetry (FiXP) Academy</a></span> <span><b>L'Aquila, Italy</b></span> <span><i>April 7-11th</i></span>
-        <span>[<a href="{{site.docs_download_link}}IXPO2024_POLAR-2.pdf" target="_blank">Poster</a>]</span>
+        <span><a href="https://indico.gssi.it/event/763/" target="_blank" rel="noopener">Frontiers in X-ray Polarimetry (FiXP) Academy</a></span> <span><b>L'Aquila, Italy</b></span> <span><i>April 7-11th</i></span>
+        <span>[<a href="{{site.docs_download_link}}IXPO2024_POLAR-2.pdf" target="_blank" rel="noopener">Poster</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>The CUbesat Solar Polarimeter (CUSP) mission overview (Poster + flash talk)</b></span><br/>
-        <span><a href="https://indico.gssi.it/event/763/" target="_blank">Frontiers in X-ray Polarimetry (FiXP) Academy</a></span> <span><b>L'Aquila, Italy</b></span> <span><i>April 7-11th</i></span>
-        <span>[<a href="{{site.docs_download_link}}IXPO2024_CUSP.pdf" target="_blank">Poster</a>]</span>
+        <span><a href="https://indico.gssi.it/event/763/" target="_blank" rel="noopener">Frontiers in X-ray Polarimetry (FiXP) Academy</a></span> <span><b>L'Aquila, Italy</b></span> <span><i>April 7-11th</i></span>
+        <span>[<a href="{{site.docs_download_link}}IXPO2024_CUSP.pdf" target="_blank" rel="noopener">Poster</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
-        <span><b>Compton Polarimetry of Gamma-Ray Transients: Insights from Gamma-Ray Bursts to Solar Flares - </b></span><span style="color:red;"><i>Invited seminar</i></span><br/>
-        <span><a href="" target="_blank">Astronomical Observatory of Strasbourg</a></span> <span><b>Strasbourg, France</b></span> <span><i>March 28th</i></span>
-        <span>[<a href="{{site.docs_download_link}}Seminar_Compton_Polarimetry_Transients_Strasbourg.pdf" target="_blank">Slides</a>]</span>
+      <p class="entry">
+        <span><b>Compton Polarimetry of Gamma-Ray Transients: Insights from Gamma-Ray Bursts to Solar Flares - </b></span><span class="tag-invited"><i>Invited seminar</i></span><br/>
+        <span>Astronomical Observatory of Strasbourg</span> <span><b>Strasbourg, France</b></span> <span><i>March 28th</i></span>
+        <span>[<a href="{{site.docs_download_link}}Seminar_Compton_Polarimetry_Transients_Strasbourg.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
-        <span><b>Analysis Workshop on High-Energy Polarimetry - </b></span><span style="color:red;"><i>Invited</i></span><br/>
-        <span><a href="https://indico.cern.ch/event/1471661/" target="_blank">Advancing a Universal Analysis Framework for High-Energy Spectro-Polarimetry</a></span> <span><b>Ayent, Switzerland</b></span> <span><i>February 10-14th</i></span>
+      <p class="entry">
+        <span><b>Analysis Workshop on High-Energy Polarimetry - </b></span><span class="tag-invited"><i>Invited</i></span><br/>
+        <span><a href="https://indico.cern.ch/event/1471661/" target="_blank" rel="noopener">Advancing a Universal Analysis Framework for High-Energy Spectro-Polarimetry</a></span> <span><b>Ayent, Switzerland</b></span> <span><i>February 10-14th</i></span>
       </p>
-  </div>
-  <button class="cbCollapse">2024</button>
-  <div class="content">
-      <p style="margin-left: 20px;">
-        <span><b></b></span><span style="color:red;"><i>Invited expert</i></span><br/>
-        <span><a href="" target="_blank">Closed-door eXTP-PFA Workshop</a></span> <span><b>Beijing, China</b></span> <span><i>October 21st</i></span>
+    </div>
+  </details>
+  <details class="accordion">
+    <summary>2024</summary>
+    <div class="accordion-content">
+      <p class="entry">
+        <span class="tag-invited"><i>Invited expert</i></span><br/>
+        <span>Closed-door eXTP-PFA Workshop</span> <span><b>Beijing, China</b></span> <span><i>October 21st</i></span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
-        <span><b>Solar Flare polarimetry with the CUbesat Solar Polarimeter (CUSP) mission - </b></span><span style="color:red;"><i>Invited talk</i></span><br/>
-        <span><a href="" target="_blank">GRBAXP Polarimetry Workshop</a></span> <span><b>Nanning, China</b></span> <span><i>October 15-19th</i></span>
-        <span>[<a href="{{site.docs_download_link}}GuangXi_Workshop_2024.pdf" target="_blank">Slides</a>]</span>
+      <p class="entry">
+        <span><b>Solar Flare polarimetry with the CUbesat Solar Polarimeter (CUSP) mission - </b></span><span class="tag-invited"><i>Invited talk</i></span><br/>
+        <span>GRBAXP Polarimetry Workshop</span> <span><b>Nanning, China</b></span> <span><i>October 15-19th</i></span>
+        <span>[<a href="{{site.docs_download_link}}GuangXi_Workshop_2024.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>The CUbesat Solar Polarimeter (CUSP) mission overview (Poster + flash talk)</b></span><br/>
-        <span><a href="https://sti.usra.edu/ixpo/" target="_blank">IXPO: International X-ray POlarimetry Symposium</a></span> <span><b>Huntsville (AL), USA</b></span> <span><i>September 16-19th</i></span>
-        <span>[<a href="{{site.docs_download_link}}IXPO2024_CUSP.pdf" target="_blank">Poster</a>, <a href="{{site.docs_download_link}}IXPO2024_CUSP_flashtalk.pdf" target="_blank">Flash Talk</a>]</span>
+        <span><a href="https://sti.usra.edu/ixpo/" target="_blank" rel="noopener">IXPO: International X-ray POlarimetry Symposium</a></span> <span><b>Huntsville (AL), USA</b></span> <span><i>September 16-19th</i></span>
+        <span>[<a href="{{site.docs_download_link}}IXPO2024_CUSP.pdf" target="_blank" rel="noopener">Poster</a>, <a href="{{site.docs_download_link}}IXPO2024_CUSP_flashtalk.pdf" target="_blank" rel="noopener">Flash Talk</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>A 3ML-based universal tool for X-/γ-ray polarimetry using common data format standards (Poster + flash talk)</b></span><br/>
-        <span><a href="https://sti.usra.edu/ixpo/" target="_blank">IXPO: International X-ray POlarimetry Symposium</a></span> <span><b>Huntsville (AL), USA</b></span> <span><i>September 16-19th</i></span>
-        <span>[<a href="{{site.docs_download_link}}IXPO2024_PolPy.pdf" target="_blank">Poster</a>, <a href="{{site.docs_download_link}}IXPO2024_PolPy_flashtalk.pdf" target="_blank">Flash Talk</a>]</span>
+        <span><a href="https://sti.usra.edu/ixpo/" target="_blank" rel="noopener">IXPO: International X-ray POlarimetry Symposium</a></span> <span><b>Huntsville (AL), USA</b></span> <span><i>September 16-19th</i></span>
+        <span>[<a href="{{site.docs_download_link}}IXPO2024_PolPy.pdf" target="_blank" rel="noopener">Poster</a>, <a href="{{site.docs_download_link}}IXPO2024_PolPy_flashtalk.pdf" target="_blank" rel="noopener">Flash Talk</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>POLAR-2, the next generation of GRB polarization detector (Poster + flash talk)</b></span><br/>
-        <span><a href="https://sti.usra.edu/ixpo/" target="_blank">IXPO: International X-ray POlarimetry Symposium</a></span> <span><b>Huntsville (AL), USA</b></span> <span><i>September 16-19th</i></span>
-        <span>[<a href="{{site.docs_download_link}}IXPO2024_POLAR-2.pdf" target="_blank">Poster</a>, <a href="{{site.docs_download_link}}IXPO2024_POLAR-2_flashtalk.pdf" target="_blank">Flash Talk</a>]</span>
+        <span><a href="https://sti.usra.edu/ixpo/" target="_blank" rel="noopener">IXPO: International X-ray POlarimetry Symposium</a></span> <span><b>Huntsville (AL), USA</b></span> <span><i>September 16-19th</i></span>
+        <span>[<a href="{{site.docs_download_link}}IXPO2024_POLAR-2.pdf" target="_blank" rel="noopener">Poster</a>, <a href="{{site.docs_download_link}}IXPO2024_POLAR-2_flashtalk.pdf" target="_blank" rel="noopener">Flash Talk</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
-        <span><b>Temperature Dependence of Radiation Damage Annealing of Silicon Photomultipliers - </b></span><span style="color:red;"><i>ESA awardee</i></span><br/>
-        <span><a href="https://errs2024.pt/" target="_blank">48th European Radiation Research Society Meeting</a></span> <span><b>Aveiro, Portugal - Online Participation</b></span> <span><i>September 10-13th</i></span>
-        <span>[<a href="{{site.docs_download_link}}ERRS2024.pdf" target="_blank">Slides</a>]</span>
+      <p class="entry">
+        <span><b>Temperature Dependence of Radiation Damage Annealing of Silicon Photomultipliers - </b></span><span class="tag-invited"><i>ESA awardee</i></span><br/>
+        <span><a href="https://errs2024.pt/" target="_blank" rel="noopener">48th European Radiation Research Society Meeting</a></span> <span><b>Aveiro, Portugal - Online Participation</b></span> <span><i>September 10-13th</i></span>
+        <span>[<a href="{{site.docs_download_link}}ERRS2024.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
-        <span><b>Future Perspectives for Gamma-ray Burst Detection from Space - </b></span><span style="color:red;"><i>Invited talk</i></span><br/>
-        <span><a href="https://frapws2024.iaps.inaf.it/" target="_blank">Mondello Workshop 2024, Frontier Research in Astrophysics - IV</a></span> <span><b>Mondello, Palermo, Italy</b></span> <span><i>September 9-14th</i></span>
-        <span>[<a href="{{site.docs_download_link}}Mondello2024.pdf" target="_blank">Slides</a>]</span>
-        <span><b>+ <span style="color:red;">Session convener</span>: Ongoing Experiments</b></span>
+      <p class="entry">
+        <span><b>Future Perspectives for Gamma-ray Burst Detection from Space - </b></span><span class="tag-invited"><i>Invited talk</i></span><br/>
+        <span><a href="https://frapws2024.iaps.inaf.it/" target="_blank" rel="noopener">Mondello Workshop 2024, Frontier Research in Astrophysics - IV</a></span> <span><b>Mondello, Palermo, Italy</b></span> <span><i>September 9-14th</i></span>
+        <span>[<a href="{{site.docs_download_link}}Mondello2024.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+        <span><b>+ <span class="tag-invited">Session convener</span>: Ongoing Experiments</b></span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>Energy-dependent polarization of Gamma-Ray Bursts’ prompt emission with the POLAR and POLAR-2 instruments</b></span><br/>
-        <span><a href="https://astronomy2024.org/" target="_blank">XXXII IAU General Assembly</a></span> <span><b>Cape Town, South Africa – Online Participation</b></span> <span><i>August 6-15th</i></span>
-        <span>[<a href="{{site.docs_download_link}}IAU2024.pdf" target="_blank">Slides</a>]</span>
+        <span><a href="https://astronomy2024.org/" target="_blank" rel="noopener">XXXII IAU General Assembly</a></span> <span><b>Cape Town, South Africa – Online Participation</b></span> <span><i>August 6-15th</i></span>
+        <span>[<a href="{{site.docs_download_link}}IAU2024.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>The CUbesat Solar Polarimeter (CUSP) mission overview</b></span><br/>
-        <span><a href="https://www.cospar2024.org/" target="_blank">COSPAR 2024</a></span> <span><b>Busan, Korea</b></span> <span><i>July 13-21st</i></span>
-        <span>[<a href="{{site.docs_download_link}}COSPAR2024_CUSP.pdf" target="_blank">Slides</a>]</span>
+        <span><a href="https://www.cospar2024.org/" target="_blank" rel="noopener">COSPAR 2024</a></span> <span><b>Busan, Korea</b></span> <span><i>July 13-21st</i></span>
+        <span>[<a href="{{site.docs_download_link}}COSPAR2024_CUSP.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-      <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-      <p style="margin-left: 20px;">
+      <p class="entry">
         <span><b>Gamma-Ray Burst Polarimetry with the POLAR and POLAR-2 missions</b></span><br/>
-        <span><a href="https://www.cospar2024.org/" target="_blank">COSPAR 2024</a></span> <span><b>Busan, Korea</b></span> <span><i>July 13-21st</i></span>
-        <span>[<a href="{{site.docs_download_link}}COSPAR2024_POLAR-2.pdf" target="_blank">Slides</a>]</span>
+        <span><a href="https://www.cospar2024.org/" target="_blank" rel="noopener">COSPAR 2024</a></span> <span><b>Busan, Korea</b></span> <span><i>July 13-21st</i></span>
+        <span>[<a href="{{site.docs_download_link}}COSPAR2024_POLAR-2.pdf" target="_blank" rel="noopener">Slides</a>]</span>
       </p>
-  </div>
+    </div>
+  </details>
   
-  <button class="cbCollapse">2023</button>
-  <div class="content">
-    <p style="margin-left: 20px;">
-      <span><b>Development of the Next Generation Space-based Compton Polarimeter and Energy Resolved Polarization Analysis of Gamma-Ray Bursts Prompt Emission</b></span><br/>
-      <span><a href="https://doi.org/10.13097/archive-ouverte/unige:173869" target="_blank">PhD thesis</a></span> <span>defense</span> <span><b>Geneva, Switzerland</b></span> <span><i>December 7th</i></span>
-      <span>[<a href="{{site.docs_download_link}}phd_defense.pdf" target="_blank">Slides</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-    <p style="margin-left: 20px;">
-      <span><b>Analysis Workshop</b></span><br/>
-      <span><a href="https://indico.cern.ch/event/1288612/" target="_blank">Bringing Theory into the Data Space</a></span> <span><b>Nendaz, Switzerland</b></span> <span><i>October 9-13th</i></span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-    <p style="margin-left: 20px;">
-      <span><b>Energy-dependent polarization of Gamma-Ray Bursts’ prompt emission with the POLAR and POLAR-2 instruments</b></span><br/>
-      <span><a href="https://www.icrc2023.org/" target="_blank">38th International Cosmic Ray Conference (ICRC)</a></span> <span><b>Nagoya, Japan</b></span> <span><i>July 26th-August 3rd</i></span>
-      <span>[<a href="{{site.docs_download_link}}ICRC2023_Nagoya.pdf" target="_blank">Slides</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;">
-    <p style="margin-left: 20px;">
-      <span><b>Energy-dependent polarization of Gamma-Ray Bursts’ prompt emission with the POLAR and POLAR-2 instruments</b></span><br/>
-      <span><a href="https://eas.unige.ch/" target="_blank">European Astronomical Society Annual Meeting EAS2023</a></span> <span><b>Krakow, Poland</b></span> <span><i>July 10-14th</i></span>
-      <span>[<a href="{{site.docs_download_link}}EAS2023_Krakow.pdf" target="_blank">Slides</a>]</span>
-    </p>
-  </div>
+  <details class="accordion">
+    <summary>2023</summary>
+    <div class="accordion-content">
+      <p class="entry">
+        <span><b>Development of the Next Generation Space-based Compton Polarimeter and Energy Resolved Polarization Analysis of Gamma-Ray Bursts Prompt Emission</b></span><br/>
+        <span><a href="https://doi.org/10.13097/archive-ouverte/unige:173869" target="_blank" rel="noopener">PhD thesis</a></span> <span>defense</span> <span><b>Geneva, Switzerland</b></span> <span><i>December 7th</i></span>
+        <span>[<a href="{{site.docs_download_link}}phd_defense.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+      </p>
+      <p class="entry">
+        <span><b>Analysis Workshop</b></span><br/>
+        <span><a href="https://indico.cern.ch/event/1288612/" target="_blank" rel="noopener">Bringing Theory into the Data Space</a></span> <span><b>Nendaz, Switzerland</b></span> <span><i>October 9-13th</i></span>
+      </p>
+      <p class="entry">
+        <span><b>Energy-dependent polarization of Gamma-Ray Bursts’ prompt emission with the POLAR and POLAR-2 instruments</b></span><br/>
+        <span><a href="https://www.icrc2023.org/" target="_blank" rel="noopener">38th International Cosmic Ray Conference (ICRC)</a></span> <span><b>Nagoya, Japan</b></span> <span><i>July 26th-August 3rd</i></span>
+        <span>[<a href="{{site.docs_download_link}}ICRC2023_Nagoya.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+      </p>
+      <p class="entry">
+        <span><b>Energy-dependent polarization of Gamma-Ray Bursts’ prompt emission with the POLAR and POLAR-2 instruments</b></span><br/>
+        <span><a href="https://eas.unige.ch/" target="_blank" rel="noopener">European Astronomical Society Annual Meeting EAS2023</a></span> <span><b>Krakow, Poland</b></span> <span><i>July 10-14th</i></span>
+        <span>[<a href="{{site.docs_download_link}}EAS2023_Krakow.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+      </p>
+    </div>
+  </details>
 
-  <button class="cbCollapse">2022</button>
-  <div class="content">
-    <p style="margin-left: 20px;">
-      <span><b>Measuring Gamma-Ray Burst Polarization with the POLAR-2 mission</b></span><br/>
-      <span><a href="https://partphys-indico.unige.ch/event/703/" target="_blank">Young researchers' day</a></span> <span><b>Geneva, Switzerland</b></span> <span><i>September 16th</i></span>
-      <span>[<a href="{{site.docs_download_link}}Geneva_Young_researchers_day_2022.pdf" target="_blank">Slides</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <span><b>Measuring Gamma-Ray Transients Polarization with the POLAR-2 Compton Polarimeter</b></span><br/>
-      <span><a href="https://indico.ict.inaf.it/event/982/" target="_blank">Astrophysical Polarimetry in the Time-Domain Era</a></span> <span><b>Lecco, Italy</b></span> <span><i>August 28th-September 1st</i></span>
-      <span>[<a href="{{site.docs_download_link}}AstrophysicalPolarimetry_Lecco_2022.pdf" target="_blank">Slides</a>; <a href="https://doi.org/10.5281/zenodo.7085932" target="_blank">DOI</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <span><b>Gamma-Ray Polarization Measurements with the POLAR-2 Mission - </b></span><span style="color:red;"><i>Invited talk</i></span><br/>
-      <span><a href="https://www.cosparathens2022.org/" target="_blank">COSPAR 2022</a></span> <span><b>Athens, Greece</b></span> <span><i>July 16-24th</i></span>
-      <span>[<a href="{{site.docs_download_link}}COSPAR_Athens_2022.pdf" target="_blank">Slides</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <span><b>Gamma-Ray Burst Polarization Measurements with the POLAR-2 mission</b></span><br/>
-      <span><a href="https://astrodragon.web.roma2.infn.it/" target="_blank">1st Mondragone Frontiers of Astronomy Series</a></span> <span><b>Monte Porzio Catone, Italy</b></span> <span><i>May 18-20th</i></span>
-      <span>[<a href="{{site.docs_download_link}}Mondragone_1st_2022.pdf" target="_blank">Slides</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <span><b>Annealing Characterization of Hamamatsu S13360-60xx SiPMs for Space Applications</b></span><br/>
-      <span><a href="https://indico.cern.ch/event/1093102/" target="_blank">SiPM Radiation workshop</a></span> <span><b>CERN, Geneva, Switzerland</b></span> <span><i>April 25-29th</i></span>
-      <span>[<a href="{{site.docs_download_link}}CERN_SiPM_workshop_2022.pdf" target="_blank">Slides</a>]</span><br/>
-      <span><b>+ <span style="color:red;">Session convener</span>: SiPMs irradiation with Neutrons & Electrons</b></span>
-    </p>
-  </div>
+  <details class="accordion">
+    <summary>2022</summary>
+    <div class="accordion-content">
+      <p class="entry">
+        <span><b>Measuring Gamma-Ray Burst Polarization with the POLAR-2 mission</b></span><br/>
+        <span><a href="https://partphys-indico.unige.ch/event/703/" target="_blank" rel="noopener">Young researchers' day</a></span> <span><b>Geneva, Switzerland</b></span> <span><i>September 16th</i></span>
+        <span>[<a href="{{site.docs_download_link}}Geneva_Young_researchers_day_2022.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+      </p>
+      <p class="entry">
+        <span><b>Measuring Gamma-Ray Transients Polarization with the POLAR-2 Compton Polarimeter</b></span><br/>
+        <span><a href="https://indico.ict.inaf.it/event/982/" target="_blank" rel="noopener">Astrophysical Polarimetry in the Time-Domain Era</a></span> <span><b>Lecco, Italy</b></span> <span><i>August 28th-September 1st</i></span>
+        <span>[<a href="{{site.docs_download_link}}AstrophysicalPolarimetry_Lecco_2022.pdf" target="_blank" rel="noopener">Slides</a>; <a href="https://doi.org/10.5281/zenodo.7085932" target="_blank" rel="noopener">DOI</a>]</span>
+      </p>
+      <p class="entry">
+        <span><b>Gamma-Ray Polarization Measurements with the POLAR-2 Mission - </b></span><span class="tag-invited"><i>Invited talk</i></span><br/>
+        <span><a href="https://www.cosparathens2022.org/" target="_blank" rel="noopener">COSPAR 2022</a></span> <span><b>Athens, Greece</b></span> <span><i>July 16-24th</i></span>
+        <span>[<a href="{{site.docs_download_link}}COSPAR_Athens_2022.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+      </p>
+      <p class="entry">
+        <span><b>Gamma-Ray Burst Polarization Measurements with the POLAR-2 mission</b></span><br/>
+        <span><a href="https://astrodragon.web.roma2.infn.it/" target="_blank" rel="noopener">1st Mondragone Frontiers of Astronomy Series</a></span> <span><b>Monte Porzio Catone, Italy</b></span> <span><i>May 18-20th</i></span>
+        <span>[<a href="{{site.docs_download_link}}Mondragone_1st_2022.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+      </p>
+      <p class="entry">
+        <span><b>Annealing Characterization of Hamamatsu S13360-60xx SiPMs for Space Applications</b></span><br/>
+        <span><a href="https://indico.cern.ch/event/1093102/" target="_blank" rel="noopener">SiPM Radiation workshop</a></span> <span><b>CERN, Geneva, Switzerland</b></span> <span><i>April 25-29th</i></span>
+        <span>[<a href="{{site.docs_download_link}}CERN_SiPM_workshop_2022.pdf" target="_blank" rel="noopener">Slides</a>]</span><br/>
+        <span><b>+ <span class="tag-invited">Session convener</span>: SiPMs irradiation with Neutrons &amp; Electrons</b></span>
+      </p>
+    </div>
+  </details>
 
-
-  <button class="cbCollapse">2021</button>
-  <div class="content">
-    <p style="margin-left: 20px;">
-      <span><b>Development and science perspectives of the POLAR-2 instrument: a large scale GRB polarimeter (Poster + flash talk)</b></span><br/>
-      <span><a href="https://indico.ict.inaf.it/event/1001/" target="_blank">Integral Meeting 2021</a></span> <span><b>Santa Margherita di Pula, Italy</b></span> <span><i>October 11-15th</i></span>
-      <span>[<a href="{{site.docs_download_link}}Poster_Integral21_Sardegna.pdf" target="_blank">Poster</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <span><b>Development and science perspectives of the POLAR-2 instrument: a large scale GRB polarimeter (Poster + flash talk)</b></span><br/>
-      <span><a href="https://icrc2021.desy.de/" target="_blank">37th International Cosmic Ray Conference (ICRC)</a></span> <span><b>Berlin, Germany (Online)</b></span> <span><i>July 12-23rd</i></span>
-      <span>[<a href="{{site.docs_download_link}}Poster_ICRC21_Berlin.pdf" target="_blank">Poster</a>, <a href="{{site.docs_download_link}}ICRC2021_flashtalk.pdf" target="_blank">Flash Talk</a>]</span>
-    </p>
-    <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-    <p style="margin-left: 20px;">
-      <span><b>POLAR-2: Development of a Large Scale Gamma-ray Polarimeter</b></span><br/>
-      <span><a href="https://astropol2020-iau.jp/" target="_blank">IAU Symposium 360 - ASTROPOL 2020</a></span> <span><b>Hiroshima, Japan (Online)</b></span> <span><i>March 22-26th</i></span>
-      <span>[<a href="{{site.docs_download_link}}Astropol2021_Hiroshima.pdf" target="_blank">Slides</a>]</span>
-    </p>
-  </div>
+  <details class="accordion">
+    <summary>2021</summary>
+    <div class="accordion-content">
+      <p class="entry">
+        <span><b>Development and science perspectives of the POLAR-2 instrument: a large scale GRB polarimeter (Poster + flash talk)</b></span><br/>
+        <span><a href="https://indico.ict.inaf.it/event/1001/" target="_blank" rel="noopener">Integral Meeting 2021</a></span> <span><b>Santa Margherita di Pula, Italy</b></span> <span><i>October 11-15th</i></span>
+        <span>[<a href="{{site.docs_download_link}}Poster_Integral21_Sardegna.pdf" target="_blank" rel="noopener">Poster</a>]</span>
+      </p>
+      <p class="entry">
+        <span><b>Development and science perspectives of the POLAR-2 instrument: a large scale GRB polarimeter (Poster + flash talk)</b></span><br/>
+        <span><a href="https://icrc2021.desy.de/" target="_blank" rel="noopener">37th International Cosmic Ray Conference (ICRC)</a></span> <span><b>Berlin, Germany (Online)</b></span> <span><i>July 12-23rd</i></span>
+        <span>[<a href="{{site.docs_download_link}}Poster_ICRC21_Berlin.pdf" target="_blank" rel="noopener">Poster</a>, <a href="{{site.docs_download_link}}ICRC2021_flashtalk.pdf" target="_blank" rel="noopener">Flash Talk</a>]</span>
+      </p>
+      <p class="entry">
+        <span><b>POLAR-2: Development of a Large Scale Gamma-ray Polarimeter</b></span><br/>
+        <span><a href="https://astropol2020-iau.jp/" target="_blank" rel="noopener">IAU Symposium 360 - ASTROPOL 2020</a></span> <span><b>Hiroshima, Japan (Online)</b></span> <span><i>March 22-26th</i></span>
+        <span>[<a href="{{site.docs_download_link}}Astropol2021_Hiroshima.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+      </p>
+    </div>
+  </details>
   
-  <button class="cbCollapse">2019</button>
-  <div class="content">
-  <p style="margin-left: 20px;">
-    <span><b>Studies of readout electronics and optical elements for a gamma-ray telescope</b></span><br/>
-    <span><a href="https://cds.cern.ch/record/2683289" target="_blank">Master thesis</a></span> <span>defense</span> <span><b>Geneva, Switzerland</b></span> <span><i>July 12th</i></span>
-    <span>[<a href="{{site.docs_download_link}}master_defense.pdf" target="_blank">Slides</a>]</span>
-  </p>
-  <hr style="color: #aaaaaa; width: 960px; margin-top: 0; margin-bottom :0;"> 
-  <p style="margin-left: 20px;">
-    <span><b>Study of the MUSIC ASIC for possible SST-1M upgrade</b></span><br/>
-    <span>CTA Consortium Meeting 2019</span> <span><b>Lugano, Switzerland</b></span> <span><i>June 3-7th</i></span>
-    <span>[<a href="{{site.docs_download_link}}CTA_Lugano_2019.pdf" target="_blank">Slides</a>]</span>
-  </p>
-  </div>
+  <details class="accordion">
+    <summary>2019</summary>
+    <div class="accordion-content">
+      <p class="entry">
+        <span><b>Studies of readout electronics and optical elements for a gamma-ray telescope</b></span><br/>
+        <span><a href="https://cds.cern.ch/record/2683289" target="_blank" rel="noopener">Master thesis</a></span> <span>defense</span> <span><b>Geneva, Switzerland</b></span> <span><i>July 12th</i></span>
+        <span>[<a href="{{site.docs_download_link}}master_defense.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+      </p>
+      <p class="entry">
+        <span><b>Study of the MUSIC ASIC for possible SST-1M upgrade</b></span><br/>
+        <span>CTA Consortium Meeting 2019</span> <span><b>Lugano, Switzerland</b></span> <span><i>June 3-7th</i></span>
+        <span>[<a href="{{site.docs_download_link}}CTA_Lugano_2019.pdf" target="_blank" rel="noopener">Slides</a>]</span>
+      </p>
+    </div>
+  </details>
 
 </div>
-
-
-<script>
-    var coll = document.getElementsByClassName("cbCollapse");
-    var i;
-    for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("cbCollapse--active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight) {
-        content.style.maxHeight = null;
-        } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-        }
-    });
-    }
-</script>
