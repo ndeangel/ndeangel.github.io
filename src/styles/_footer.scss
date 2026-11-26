@@ -1,0 +1,25 @@
+@use 'vars' as *;
+
+.footer {
+  margin-top: 100px;
+  padding: 10px 0;
+  background: $main;
+  color: #fff;
+  text-align: center;
+
+  a {
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+
+    // (it used to turn dark grey on the dark background, i.e. harder to read when hovered)
+    &:hover,
+    &:active {
+      text-decoration: underline;
+    }
+  }
+
+  :focus-visible {
+    outline-color: #fff;
+  }
+}

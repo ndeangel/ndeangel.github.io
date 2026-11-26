@@ -1,0 +1,21 @@
+{%- comment -%} The logos come from _data/software.yml (add a line there to add a logo). {%- endcomment %}
+<div class="user-details">
+  <div class="tech-columns">
+    <div class="tech">
+      <h2 class="section-title">Code</h2>
+      <ul class="logos">
+        {%- for item in site.data.software.code %}
+        <li><img src="{{ item.img | prepend: '/assets/img/' | relative_url }}" alt="{{ item.name | escape }}" width="75" height="75" loading="lazy" decoding="async"></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <div class="tech">
+      <h2 class="section-title">Software</h2>
+      <ul class="logos">
+        {%- for item in site.data.software.software %}
+        <li><img src="{{ item.img | prepend: '/assets/img/' | relative_url }}" alt="{{ item.name | escape }}" width="75" height="75" loading="lazy" decoding="async"></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

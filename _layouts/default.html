@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    {% include header.html %}
+    <main id="main">
+      <section id="about">
+        {% include about.html %}
+      </section>
+      <section id="timeline">
+        {% include timeline.html %}
+      </section>
+      <section id="software">
+        {% include software.html %}
+      </section>
+      <section id="projects">
+        {% include projects.html %}
+      </section>
+      <section id="publications">
+        {% include publications_talks.html %}
+      </section>
+      <section id="teaching">
+        {% include teaching.html %}
+      </section>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
