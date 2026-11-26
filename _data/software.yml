@@ -1,0 +1,29 @@
+# Logos of the "Code" and "Software" sections (4 per row).
+# name = alternative text read by screen readers, img = file in assets/img/.
+code:
+  - { name: "Python", img: "logo_python.svg" }
+  - { name: "C", img: "logo_c.svg" }
+  - { name: "C++", img: "logo_cplusplus.svg" }
+  - { name: "C#", img: "logo_csharp.svg" }
+  - { name: "HTML5", img: "logo_html5.svg" }
+  - { name: "CSS3", img: "logo_css3.svg" }
+  - { name: "LaTeX", img: "logo_latex.svg" }
+  - { name: "Git", img: "logo_git.svg" }
+  - { name: "macOS", img: "logo_apple.svg" }
+  - { name: "Linux", img: "logo_linux.svg" }
+  - { name: "ROOT", img: "logo_root.webp" }
+  - { name: "Geant4", img: "logo_g4.webp" }
+
+software:
+  - { name: "LabVIEW", img: "logo_labview.svg" }
+  - { name: "MATLAB", img: "logo_matlab.svg" }
+  - { name: "Mathematica", img: "logo_mathematica.webp" }
+  - { name: "GIMP", img: "logo_gimp.svg" }
+  - { name: "Adobe Illustrator", img: "logo_illustrator.svg" }
+  - { name: "Adobe Lightroom", img: "logo_lightroom.webp" }
+  - { name: "SolidWorks", img: "logo_solidworks.webp" }
+  - { name: "Igor Pro", img: "logo_igorpro.webp" }
+  - { name: "CATIA", img: "logo_catia.webp" }
+  - { name: "COMSOL Multiphysics", img: "logo_COMSOL.webp" }
+  - { name: "mecaflux Heliciel", img: "logo_mecafluxheliciel.webp" }
+  - { name: "Cadence", img: "logo_cadence.webp" }

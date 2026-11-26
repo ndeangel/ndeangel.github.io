@@ -1,0 +1,14 @@
+// Palette (unchanged values from the Particle theme)
+$main: #1a222c;    // hero background, footer, dark buttons
+$sec: #4b5664;
+$purple: #54516a;
+
+// Text
+$text: #555;       // body text (contrast 7.5:1 on white)
+$heading: #333;
+$focus: #1e6bd6;   // keyboard focus ring on light backgrounds
+
+// Layout
+$cut: 550px;           // "tablet" breakpoint used by the theme
+$cut-wide: 700px;      // header icons fit on one line from here
+$content-max: 960px;   // max width of every section

@@ -1,0 +1,77 @@
+@use 'vars' as *;
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-projects {
+  margin: 20px auto;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  p {
+    margin-right: 5px;
+    text-align: justify;
+  }
+}
+
+// Image on one side, text on the other (side by side from $cut).
+// These values are the ones the live site has been serving; the old SCSS had drifted from them.
+@media only screen and (min-width: $cut) {
+  .contents {
+    margin-left: 0;
+    width: 48%;
+  }
+
+  .contents-right {
+    float: right;
+    width: 48%;
+    margin-top: -5%;
+  }
+
+  .images-right {
+    float: right;
+    width: 48%;
+
+    img {
+      float: right;
+    }
+  }
+
+  .images-left {
+    float: left;
+    width: 48%;
+
+    img {
+      float: left;
+    }
+  }
+}
+
+.project-link {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid $main;
+  border-radius: 10px;
+  background-color: transparent;
+  color: $main;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+
+  &:hover,
+  &:active {
+    border-color: $purple;
+    background-color: $purple;
+    color: #fff;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in;
+  }
+}
